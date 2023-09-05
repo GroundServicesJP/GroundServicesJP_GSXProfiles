@@ -42,10 +42,10 @@ Currently, please download the newest release on https://github.com. To install 
 3. Move the `.ini` files to the folder. There is no need to change AFCAD `.bgl` file path for MSFS GSX Pro version.
 
 ### サポートされている空港とProfileバージョン  Supported Airports and Version
-| プロファイル名   Profile Name | 空港 Airport | シーナリー作者 Scenery Creator | バージョン Version |
-| ----------- | ----------- | ----------- | ----------- |
-| rjck_karuchie.ini | 釧路　Kushiro (RJCK)  |　karuchie | Ver 1.0 |
-| rjoa_kaze.ini   | 広島　Hiroshima (RJOA)  | KAZE | Ver 1.0|
+| プロファイル名 Profile Name | 空港 Airport           | シーナリー作者 Scenery Creator | バージョン Version |
+| -----------                | -----------           | -----------                   | ----------- |
+| rjck_karuchie.ini          | 釧路Kushiro (RJCK)   | karuchie                      | Ver 1.0 |
+| rjoa_kaze.ini              | 広島Hiroshima (RJOA) | KAZE                          | Ver 1.0|
 
 ### ライセンス Licensing 
 GSJPプロジェクトのライセンスは、Githubリポジトリ内の `LICENSE.md` をご覧ください。  
@@ -62,13 +62,20 @@ If you would like to contribute, please fork the repository and make a pull requ
 
 Here is a simple procedure on how to contribute on github without git VCS.  If you would like to add or edit an existing .ini file:  
 1. リポジトリ (Repository) をForkする。Fork the repository.
+   
+   ![alt text](README_images/1.png)
 2. ファイルアップロードを選択し、更新したファイルをアップロードする。この際、必ず自身のForkしたリポジトリ内で作業を行ってください。Have your edited file ready, select Upload files and upload. Make sure you are doing this in your own forked repository.
+   
+   ![alt text](README_images/2.png)
 3. アップロードが完了したら、Pull Request(PR)を作成します。 Create a Pull Request (PR) after committing.
-4. PRが、下の画像のように正しく設定されていることを確認してください。  
-Make sure the PR is set up correctly. Make sure the head repository is your repository and the branch for comparing contains files you would like to add/edit. Make sure the base repository is GroundServicesJP/GroundServicesJP_GSXProfiles and the base branch is main. Create the pull request and we will review it.
+   
+   ![alt text](README_images/3.png)
+4. PRが、下の画像のように正しく設定されていることを確認してください。  Make sure the PR is set up correctly. Make sure the head repository is your repository and the branch for comparing contains files you would like to add/edit. Make sure the base repository is GroundServicesJP/GroundServicesJP_GSXProfiles and the base branch is main. Create the pull request and we will review it.
+   
+  ![alt text](README_images/4.png)
+
 ※ あなたが作成したファイルをgithubを通してアップロードできない場合、GSJPプロジェクトメンバーに直接ファイルを送っていただければ、プロジェクトメンバーが代理でアップロードを行い、更新の連絡を行います。 If you do not want to use github.com, please send us the files directly, and we will review and update them for you.
 
 ### プロジェクトメンバー Contributor List 
-ANA7875(@ANA7875_fwc) 
-
-ろくまる (@60Kumaru) 
+- ANA7875(@ANA7875_fwc) 
+- ろくまる (@60Kumaru) 
