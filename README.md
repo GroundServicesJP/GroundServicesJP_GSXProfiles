@@ -48,7 +48,7 @@ Currently, please download the newest release on https://github.com. To install 
 | rjoa-kaze.ini              | 広島 Hiroshima (RJOA) | KAZE                          | Ver 1.0 |
 | rjsk-fssa.ini              | 秋田 Akita (RJSK) | FSSA                          | Ver 1.0 |
 | rjfr-mfsg.ini              | 北九州 Kitakyushu (RJFR) | MFSG                          | Ver 1.0 |
-| roig-keisim.ini            | 石垣　Ishigaki (ROIG) | Keisim                          | Ver 1.0 |
+| roig-keisim.ini            | 新石垣 New Ishigaki (ROIG) | Keisim                          | Ver 1.0 |
 
 ### ライセンス Licensing 
 GSJPプロジェクトのライセンスは、Githubリポジトリ内の `LICENSE.md` をご覧ください。  
