@@ -44,10 +44,11 @@ Currently, please download the newest release on https://github.com. To install 
 ### サポートされている空港とProfileバージョン  Supported Airports and Version
 | プロファイル名 Profile Name | 空港 Airport           | シーナリー作者 Scenery Creator | バージョン Version |
 | -----------                | -----------           | -----------                   | ----------- |
-| rjck_karuchie.ini          | 釧路 Kushiro (RJCK)   | karuchie                      | Ver 1.0 |
-| rjoa_kaze.ini              | 広島 Hiroshima (RJOA) | KAZE                          | Ver 1.0|
-| rjsk_fssa.ini              | 秋田 Akita (RJSK) | FSSA                          | Ver 1.0|
-| rjfr_mfsg.ini              | 北九州 Kitakyushu (RJFR) | MFSG                          | Ver 1.0|
+| rjck-karuchie.ini          | 釧路 Kushiro (RJCK)   | karuchie                      | Ver 1.0 |
+| rjoa-kaze.ini              | 広島 Hiroshima (RJOA) | KAZE                          | Ver 1.0 |
+| rjsk-fssa.ini              | 秋田 Akita (RJSK) | FSSA                          | Ver 1.0 |
+| rjfr-mfsg.ini              | 北九州 Kitakyushu (RJFR) | MFSG                          | Ver 1.0 |
+| roig-keisim.ini            | 石垣　Ishigaki (ROIG) | Keisim                          | Ver 1.0 |
 
 ### ライセンス Licensing 
 GSJPプロジェクトのライセンスは、Githubリポジトリ内の `LICENSE.md` をご覧ください。  
