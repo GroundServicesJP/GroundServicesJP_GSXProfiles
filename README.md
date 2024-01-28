@@ -80,5 +80,6 @@ Here is a simple procedure on how to contribute on github without git VCS.  If y
 ※ あなたが作成したファイルをgithubを通してアップロードできない場合、GSJPプロジェクトメンバーに直接ファイルを送っていただければ、プロジェクトメンバーが代理でアップロードを行い、更新の連絡を行います。 If you do not want to use github.com, please send us the files directly, and we will review and update them for you.
 
 ### プロジェクトメンバー Contributor List 
-- ANA7875(@ANA7875_fwc) 
-- ろくまる (@60Kumaru) 
+- ANA7875 (@ANA7875_fwc) 
+- ろくまる (@60Kumaru)
+- Sanrok (@sanrok_)
