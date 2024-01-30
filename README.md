@@ -1,6 +1,6 @@
 # GroundServicesJP
 ## 概要 Overview
-GroundServicesJP “GSJP”は、MicrosoftFlightSimulatorでの日本国内における空港の地上サービスや設(GSE)を再現するために開始されたプロジェクトで、github.comを拠点とするオープンソースプロジェクトです。 
+GroundServicesJP “GSJP”は、MicrosoftFlightSimulatorでの日本国内における空港の地上サービスや設備(GSE)を再現するために開始されたプロジェクトで、github.comを拠点とするオープンソースプロジェクトです。 
 
 GSJPプロジェクトの4つの目標：  
 1. 空港車両の配置、乗客の乗降経路設定、プッシュバック位置の設定、機体の停止位置設定をGSX Pro用プロファイルとして作成する (MSFS限定の機能) 。  
