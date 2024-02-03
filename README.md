@@ -44,11 +44,12 @@ Currently, please download the newest release on https://github.com. To install 
 ### サポートされている空港とProfileバージョン  Supported Airports and Version
 | プロファイル名 Profile Name | 空港 Airport           | シーナリー作者 Scenery Creator | バージョン Version |
 | -----------                | -----------           | -----------                   | ----------- |
-| rjck-karuchie.ini          | 釧路 Kushiro (RJCK)   | karuchie                      | Ver 1.0 |
-| rjoa-kaze.ini              | 広島 Hiroshima (RJOA) | KAZE                          | Ver 1.0 |
-| rjsk-fssa.ini              | 秋田 Akita (RJSK) | FSSA                          | Ver 1.0 |
+| rjck-karuchie.ini/.py          | 釧路 Kushiro (RJCK)   | karuchie                      | Ver 1.1 |
+| rjoa-kaze.ini/.py              | 広島 Hiroshima (RJOA) | KAZE                          | Ver 1.1 |
+| rjsk-fssa.ini/.py              | 秋田 Akita (RJSK) | FSSA                          | Ver 1.0 |
 | rjfr-mfsg.ini              | 北九州 Kitakyushu (RJFR) | MFSG                          | Ver 1.0 |
-| roig-keisim.ini            | 新石垣 New Ishigaki (ROIG) | Keisim                          | Ver 1.0 |
+| roig-keisim.ini/.py            | 新石垣 New Ishigaki (ROIG) | Keisim                          | Ver 1.1 |
+| rjoo-kado.ini/.py            | 大阪国際 Osaka International (RJOO) | KADO                         | Ver 1.1 |
 
 ### ライセンス Licensing 
 GSJPプロジェクトのライセンスは、Githubリポジトリ内の `LICENSE.md` をご覧ください。  
@@ -83,3 +84,4 @@ Here is a simple procedure on how to contribute on github without git VCS.  If y
 - ANA7875 (@ANA7875_fwc) 
 - ろくまる (@60Kumaru)
 - Sanrok (@sanrok_)
+- RIN
