@@ -42,6 +42,7 @@ Currently, please download the newest release on https://github.com. To install 
 3. Move the `.ini` files to the folder. There is no need to change AFCAD `.bgl` file path for MSFS GSX Pro version.
 
 ### サポートされている空港とProfileバージョン  Supported Airports and Version
+Google Map: https://www.google.com/maps/d/u/3/edit?mid=1qhnhZHAZv8GJ76quQZC9RZpLdB4ASFI&usp=sharing
 | プロファイル名 Profile Name▼ | 空港 Airport           | シーナリー作者 Scenery Creator | バージョン Version | リリース日 Release Date |
 | -----------                | -----------           | -----------                   | -----------                    | ----------- |
 | rjcb-alois.ini/.py          | 帯広 Obihiro (RJCB)   | Mr.Alois                      | Ver 1.0                       | 2024/02/17 |
