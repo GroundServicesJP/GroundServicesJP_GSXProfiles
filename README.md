@@ -42,17 +42,18 @@ Currently, please download the newest release on https://github.com. To install 
 3. Move the `.ini` files to the folder. There is no need to change AFCAD `.bgl` file path for MSFS GSX Pro version.
 
 ### サポートされている空港とProfileバージョン  Supported Airports and Version
-| プロファイル名 Profile Name | 空港 Airport           | シーナリー作者 Scenery Creator | バージョン Version | リリース日 Release Date |
+| プロファイル名 Profile Name▼ | 空港 Airport           | シーナリー作者 Scenery Creator | バージョン Version | リリース日 Release Date |
 | -----------                | -----------           | -----------                   | -----------                    | ----------- |
-| rjck-karuchie.ini/.py          | 釧路 Kushiro (RJCK)   | karuchie                      | Ver 1.1                       | 2024/02/03 |
+| rjcb-alois.ini/.py          | 帯広 Obihiro (RJCB)   | Mr.Alois                      | Ver 1.0                       | 2024/02/17 |
+| rjck-karuchie.ini/.py          | 釧路 Kushiro (RJCK)   | Mr.karuchie                      | Ver 1.1                       | 2024/02/03 |
 | rjfr-mfsg.ini              | 北九州 Kitakyushu (RJFR) | MFSG                          | Ver 1.0                        | 2024/01/28 |
 | rjsk-fssa.ini/.py              | 秋田 Akita (RJSK) | FSSA                          | Ver 1.1                           | 2024/02/03 |
 | rjsr-highmemfix.ini/.py              | 大館能代 Odate-Noshiro (RJSR) | Highmemfix                          | Ver 1.0                           | 2024/02/17 |
-| rjth-karuchie.ini/.py            | 八丈島 Hachijojima (RJTH) | karuchie                         | Ver 1.0                             | 2024/02/17 |
-| rjoa-kaze.ini/.py              | 広島 Hiroshima (RJOA) | KAZE                          | Ver 1.1                       | 2024/02/03 |
-| rjoo-kado.ini/.py            | 大阪国際 Osaka International (RJOO) | KADO                         | Ver 1.1            | 2024/02/03 |
+| rjth-karuchie.ini/.py            | 八丈島 Hachijojima (RJTH) | Mr.karuchie                         | Ver 1.0                             | 2024/02/17 |
+| rjoa-kaze.ini/.py              | 広島 Hiroshima (RJOA) | Mr.KAZE                          | Ver 1.1                       | 2024/02/03 |
+| rjoo-kado.ini/.py            | 大阪国際 Osaka International (RJOO) | Mr.KADO                         | Ver 1.1            | 2024/02/03 |
 | rjok-mfsg.ini/.py            | 高知 Kochi (RJOK) | MFSG                         | Ver 1.0                             | 2024/02/17 |
-| roig-keisim.ini/.py            | 新石垣 New Ishigaki (ROIG) | Keisim                          | Ver 1.1                | 2024/02/03 |
+| roig-keisim.ini/.py            | 新石垣 New Ishigaki (ROIG) | Mr.Keisim                          | Ver 1.1                | 2024/02/03 |
 
 ### ライセンス Licensing 
 GSJPプロジェクトのライセンスは、Githubリポジトリ内の `LICENSE.md` をご覧ください。  
