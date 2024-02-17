@@ -42,7 +42,7 @@ Currently, please download the newest release on https://github.com. To install 
 3. Move the `.ini` files to the folder. There is no need to change AFCAD `.bgl` file path for MSFS GSX Pro version.
 
 ### サポートされている空港とProfileバージョン  Supported Airports and Version
-| プロファイル名 Profile Name | 空港 Airport           | シーナリー作者 Scenery Creator | バージョン Version | | リリース日 Release Date |
+| プロファイル名 Profile Name | 空港 Airport           | シーナリー作者 Scenery Creator | バージョン Version |               | リリース日 Release Date |
 | -----------                | -----------           | -----------                   | ----------- |                   | ----------- |
 | rjck-karuchie.ini/.py          | 釧路 Kushiro (RJCK)   | karuchie                      | Ver 1.1 |                      | 2024/02/03 |
 | rjoa-kaze.ini/.py              | 広島 Hiroshima (RJOA) | KAZE                          | Ver 1.1 |                      | 2024/02/03 |
