@@ -46,6 +46,7 @@ Currently, please download the newest release on https://github.com. To install 
 | -----------                | -----------           | -----------                   | -----------                    | ----------- |
 | rjcb-alois.ini/.py          | 帯広 Obihiro (RJCB)   | Mr.Alois                      | Ver 1.0                       | 2024/02/17 |
 | rjck-karuchie.ini/.py          | 釧路 Kushiro (RJCK)   | Mr.karuchie                      | Ver 1.1                       | 2024/02/03 |
+| rjer-g15_marin.ini/.py          | 利尻 Rishiri (RJER)   | Gate15Scenery/Mr.Marin                     | Ver 1.0                       | 2024/02/17 |
 | rjfr-mfsg.ini              | 北九州 Kitakyushu (RJFR) | MFSG                          | Ver 1.0                        | 2024/01/28 |
 | rjsk-fssa.ini/.py              | 秋田 Akita (RJSK) | FSSA                          | Ver 1.1                           | 2024/02/03 |
 | rjsr-highmemfix.ini/.py              | 大館能代 Odate-Noshiro (RJSR) | Highmemfix                          | Ver 1.0                           | 2024/02/17 |
