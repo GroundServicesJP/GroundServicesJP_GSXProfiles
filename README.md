@@ -50,6 +50,7 @@ Currently, please download the newest release on https://github.com. To install 
 | rjfr-mfsg.ini              | 北九州 Kitakyushu (RJFR) | MFSG                          | Ver 1.0 |
 | roig-keisim.ini/.py            | 新石垣 New Ishigaki (ROIG) | Keisim                          | Ver 1.1 |
 | rjoo-kado.ini/.py            | 大阪国際 Osaka International (RJOO) | KADO                         | Ver 1.1 |
+| rjok-mfsg.ini/.py            | 高知 Kochi (RJOK) | MFSG                         | Ver 1.0 |
 
 ### ライセンス Licensing 
 GSJPプロジェクトのライセンスは、Githubリポジトリ内の `LICENSE.md` をご覧ください。  
