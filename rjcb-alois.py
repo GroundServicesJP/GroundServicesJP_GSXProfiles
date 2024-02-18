@@ -17,6 +17,9 @@ def customOffset_Spot35(aircraftData):
         737: -7.5,
         767: -7.5,
     }
+    # If not in my table, set to zero displacement
+    if myTable.get(aircraftData.idMajor) == None:
+        return Distance.fromMeters(0.)
     return Distance.fromMeters( myTable.get(aircraftData.idMajor) )
 
 @AlternativeStopPositions
@@ -36,6 +39,9 @@ def customOffset_Spot12(aircraftData):
         737: -6.5,
         767: -6.5,
     }
+    # If not in my table, set to zero displacement
+    if myTable.get(aircraftData.idMajor) == None:
+        return Distance.fromMeters(0.)
     return Distance.fromMeters( myTable.get(aircraftData.idMajor) )
 
 
