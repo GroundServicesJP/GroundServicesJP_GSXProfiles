@@ -7,6 +7,9 @@ def customOffset_RJER(aircraftData):
         42: -0.8,
         737: 0.,
     }
+    # If not in my table, set to zero displacement
+    if myTable.get(aircraftData.idMajor) == None:
+        return Distance.fromMeters(0.)
     return Distance.fromMeters( myTable.get(aircraftData.idMajor) )
 
 parkings = {
