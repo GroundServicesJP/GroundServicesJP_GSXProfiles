@@ -1,4 +1,4 @@
-﻿msfs_mode = 1
+msfs_mode = 1
 
 parkings = {
     0 : {
