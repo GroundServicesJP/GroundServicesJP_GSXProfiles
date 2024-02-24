@@ -51,13 +51,13 @@ Google Map: https://www.google.com/maps/d/u/3/edit?mid=1qhnhZHAZv8GJ76quQZC9RZpL
 | rjec-mfsg.ini/.py          | 旭川 Asahikawa (RJEC)   | MFSG                     | Ver 1.0                       | 2024/02/18 Updated |
 | rjer-g15_marin.ini/.py          | 利尻 Rishiri (RJER)   | Gate15Scenery<br>Mr.Marin                     | Ver 1.0                       | 2024/02/17 Released |
 | rjfr-mfsg.ini              | 北九州 Kitakyushu (RJFR) | MFSG                          | Ver 1.0                        | 2024/01/28 Released |
-| rjsk-fssa.ini/.py              | 秋田 Akita (RJSK) | FSSA                          | Ver 1.1                           | 2024/02/03 Updated |
+| rjsk-fssa.ini/.py              | 秋田 Akita (RJSK) | FSSA                          | Ver 1.2                           | 2024/02/24 Updated |
 | rjsr-highmemfix.ini/.py              | 大館能代 Odate-Noshiro (RJSR) | Highmemfix                          | Ver 1.0                           | 2024/02/17 Released |
 | rjth-karuchie.ini/.py            | 八丈島 Hachijojima (RJTH) | Mr.karuchie                         | Ver 1.0                             | 2024/02/17 Released |
-| rjoa-kaze.ini/.py              | 広島 Hiroshima (RJOA) | Mr.KAZE                          | Ver 1.1                       | 2024/02/03 Updated |
+| rjoa-kaze.ini/.py              | 広島 Hiroshima (RJOA) | Mr.KAZE                          | Ver 1.2                       | 2024/02/24 Updated |
 | rjoo-kado.ini/.py            | 大阪国際 Osaka International (RJOO) | Mr.KADO                         | Ver 1.1            | 2024/02/03 Updated |
 | rjok-mfsg.ini/.py            | 高知 Kochi (RJOK) | MFSG                         | Ver 1.0                             | 2024/02/17 Released |
-| roig-keisim.ini/.py            | 新石垣 New Ishigaki (ROIG) | Mr.Keisim                          | Ver 1.1                | 2024/02/03 Updated |
+| roig-keisim.ini/.py            | 新石垣 New Ishigaki (ROIG) | Mr.Keisim                          | Ver 1.2                | 2024/02/24 Updated |
 
 ### ライセンス Licensing 
 GSJPプロジェクトのライセンスは、Githubリポジトリ内の `LICENSE.md` をご覧ください。  
