@@ -55,8 +55,9 @@ Google Map: https://www.google.com/maps/d/u/3/edit?mid=1qhnhZHAZv8GJ76quQZC9RZpL
 | rjsr-highmemfix.ini/.py              | 大館能代 Odate-Noshiro (RJSR) | Highmemfix                          | Ver 1.0                           | 2024/02/17 Released |
 | rjth-karuchie.ini/.py            | 八丈島 Hachijojima (RJTH) | Mr.karuchie                         | Ver 1.0                             | 2024/02/17 Released |
 | rjoa-kaze.ini/.py              | 広島 Hiroshima (RJOA) | Mr.KAZE                          | Ver 1.2                       | 2024/02/24 Updated |
-| rjoo-kado.ini/.py            | 大阪国際 Osaka International (RJOO) | Mr.KADO                         | Ver 1.1            | 2024/02/03 Updated |
 | rjok-mfsg.ini/.py            | 高知 Kochi (RJOK) | MFSG                         | Ver 1.0                             | 2024/02/17 Released |
+| rjoo-kado.ini/.py            | 大阪国際 Osaka International (RJOO) | Mr.KADO                         | Ver 1.1            | 2024/02/03 Updated |
+| rjot-kado.ini/.py            | 高松 Takamatsu (RJOT) | Mr.KADO                         | Ver 1.0                             | 2024/03/15 Released |
 | roig-keisim.ini/.py            | 新石垣 New Ishigaki (ROIG) | Mr.Keisim                          | Ver 1.2                | 2024/02/24 Updated |
 
 ### ライセンス Licensing 
