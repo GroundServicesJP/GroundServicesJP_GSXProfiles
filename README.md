@@ -16,7 +16,7 @@ The project has four objectives:
 3. A software that organizes and updates various GSX profiles, so users do not have to come to github and download releases. This feature will come later.  
 4. Updated GSX GSE vehicle textures to reflect the real condition. This feature will come later.
 
-## 情報サイト
+## 情報サイト Information Website
 https://gsjp.info
 
 ## GSX Profiles
