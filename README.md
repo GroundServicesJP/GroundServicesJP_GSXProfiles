@@ -4,7 +4,7 @@ GroundServicesJP “GSJP”は、MicrosoftFlightSimulatorでの日本国内に�
 
 GSJPプロジェクトの4つの目標：  
 1. 空港車両の配置、乗客の乗降経路設定、プッシュバック位置の設定、機体の停止位置設定をGSX Pro用プロファイルとして作成する (MSFS限定の機能) 。  
-2. GSXを使用せずにプッシュバックをする方など、全ユーサー向けのプッシュバックマップを作成する。  
+2. GSXを使用せずにプッシュバックをする方など、全ユーサー向けの~~プッシュバックマップ~~情報サイトを作成する。  
 3. github.comのプロジェクトページを訪問することなく、GSJPにて作成されたプロファイルのダウンロードやアップデートを行えるソフトウェアの開発を行う(実装までしばらくお待ち下さい)。  
 4. GSXの空港車両などを現実の塗装に合わせる(実装までしばらくお待ち下さい)。 
 
@@ -12,9 +12,12 @@ GroundServicesJP (GSJP) aims to improve Ground Services Equipment (GSE) in Japan
 
 The project has four objectives:  
 1. GSX Pro profiles that include correct positioning of GSE vehicles, PAX Waypoints, pushback/stop locations. This feature is for MSFS only.  
-2. Pushback maps for all users (including ones who do not use GSX).  
+2. ~~Pushback maps for all users (including ones who do not use GSX).~~ Provide pushback information for all users (including ones who do not use GSX).   
 3. A software that organizes and updates various GSX profiles, so users do not have to come to github and download releases. This feature will come later.  
 4. Updated GSX GSE vehicle textures to reflect the real condition. This feature will come later.
+
+## 情報サイト
+https://gsjp.info
 
 ## GSX Profiles
 ### Githubリポジトリへのリンク  Repository Link
@@ -45,20 +48,21 @@ Currently, please download the newest release on https://github.com. To install 
 Google Map: https://www.google.com/maps/d/u/3/edit?mid=1qhnhZHAZv8GJ76quQZC9RZpLdB4ASFI&usp=sharing
 | プロファイル名 Profile Name▼ | 空港 Airport           | シーナリー作者 Scenery Creator | バージョン Version | リリース日/アップデート日 Release/Update Date |
 | -----------                | -----------           | -----------                   | -----------                    | ----------- |
-| rjcb-alois.ini/.py          | 帯広 Obihiro (RJCB)   | Mr.Alois                      | Ver 1.0                       | 2024/02/18 Updated |
-| rjck-karuchie.ini/.py          | 釧路 Kushiro (RJCK)   | Mr.karuchie                      | Ver 1.1                       | 2024/02/03 Updated |
-| rjeb-alois_marin_karuchie.ini/.py          | 紋別 Monbetsu (RJEB)   | Mr.Alois<br>Mr.Marin<br>Mr.Karuchie                      | Ver 1.0                       | 2024/02/24 Released |
+| rjcb-alois.ini/.py          | 帯広 Obihiro (RJCB)   | Aloisさん                      | Ver 1.0                       | 2024/02/18 Updated |
+| rjck-karuchie.ini/.py          | 釧路 Kushiro (RJCK)   | karuchieさん                      | Ver 1.1                       | 2024/02/03 Updated |
+| rjeb-alois_marin_karuchie.ini/.py          | 紋別 Monbetsu (RJEB)   | Aloisさん<br>Marinさん<br>Karuchieさん                      | Ver 1.0                       | 2024/02/24 Released |
 | rjec-mfsg.ini/.py          | 旭川 Asahikawa (RJEC)   | MFSG                     | Ver 1.0                       | 2024/02/18 Updated |
-| rjer-g15_marin.ini/.py          | 利尻 Rishiri (RJER)   | Gate15Scenery<br>Mr.Marin                     | Ver 1.0                       | 2024/02/17 Released |
+| rjer-g15_marin.ini/.py          | 利尻 Rishiri (RJER)   | Gate15Scenery<br>Marinさん                     | Ver 1.0                       | 2024/02/17 Released |
 | rjfr-mfsg.ini              | 北九州 Kitakyushu (RJFR) | MFSG                          | Ver 1.0                        | 2024/01/28 Released |
-| rjsk-fssa.ini/.py              | 秋田 Akita (RJSK) | FSSA                          | Ver 1.2                           | 2024/02/24 Updated |
-| rjsr-highmemfix.ini/.py              | 大館能代 Odate-Noshiro (RJSR) | Highmemfix                          | Ver 1.0                           | 2024/02/17 Released |
-| rjth-karuchie.ini/.py            | 八丈島 Hachijojima (RJTH) | Mr.karuchie                         | Ver 1.0                             | 2024/02/17 Released |
-| rjoa-kaze.ini/.py              | 広島 Hiroshima (RJOA) | Mr.KAZE                          | Ver 1.2                       | 2024/02/24 Updated |
+| rjsk-fssa.ini/.py              | 秋田 Akita (RJSK) | FSSA                          | Ver 1.3                           | 2024/04/20 Updated |
+| rjsr-highmemfix.ini/.py              | 大館能代 Odate-Noshiro (RJSR) | Highmemfixさん                          | Ver 1.0                           | 2024/02/17 Released |
+| rjth-karuchie.ini/.py            | 八丈島 Hachijojima (RJTH) | karuchieさん                         | Ver 1.0                             | 2024/02/17 Released |
+| rjoa-kaze.ini/.py              | 広島 Hiroshima (RJOA) | KAZEさん                          | Ver 1.2                       | 2024/02/24 Updated |
 | rjok-mfsg.ini/.py            | 高知 Kochi (RJOK) | MFSG                         | Ver 1.0                             | 2024/02/17 Released |
-| rjoo-kado.ini/.py            | 大阪国際 Osaka International (RJOO) | Mr.KADO                         | Ver 1.1            | 2024/02/03 Updated |
-| rjot-kado.ini/.py            | 高松 Takamatsu (RJOT) | Mr.KADO                         | Ver 1.0                             | 2024/03/15 Released |
-| roig-keisim.ini/.py            | 新石垣 New Ishigaki (ROIG) | Mr.Keisim                          | Ver 1.2                | 2024/02/24 Updated |
+| rjoo-kado.ini/.py            | 大阪国際 Osaka International (RJOO) | KADOさん                         | Ver 1.1            | 2024/02/03 Updated |
+| rjot-kado.ini/.py            | 高松 Takamatsu (RJOT) | KADOさん                         | Ver 1.0                             | 2024/03/15 Released |
+| roig-keisim.ini/.py            | 新石垣 New Ishigaki (ROIG) | Keisimさん                          | Ver 1.2                | 2024/02/24 Updated |
+| rjtt-karuchie.ini/.py            | 東京国際（羽田）Tokyo International (Haneda) (RJTT) | kaurchieさん                          | Ver 1.0                | 2024/04/20 Released |
 
 ### ライセンス Licensing 
 GSJPプロジェクトのライセンスは、Githubリポジトリ内の `LICENSE.md` をご覧ください。  
