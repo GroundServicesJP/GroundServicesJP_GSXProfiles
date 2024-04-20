@@ -67,9 +67,11 @@ Google Map: https://www.google.com/maps/d/u/3/edit?mid=1qhnhZHAZv8GJ76quQZC9RZpL
 ### ライセンス Licensing 
 本リポジトリは、以下の作品を除き、GPLv3ライセンスを利用しています：
 The majority of this repository is open-sourced with GPLv3 license, except for the following work: 
-rjoo-kado.ini/.py
-rjfr-mfsg.ini
-rjot-kado.ini/.py
+
+- rjoo-kado.ini/.py
+- rjfr-mfsg.ini
+- rjot-kado.ini/.py
+
 上記の作品はMITライセンスを使用しています。The works above are licensed with MIT. 
 
 GSJPプロジェクトのライセンスは、Githubリポジトリ内の `LICENSE.md` をご覧ください。  
