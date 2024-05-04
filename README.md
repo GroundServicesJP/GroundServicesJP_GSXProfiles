@@ -50,7 +50,7 @@ Google Map: https://www.google.com/maps/d/u/3/edit?mid=1qhnhZHAZv8GJ76quQZC9RZpL
 | -----------                | -----------           | -----------                   | -----------                    | ----------- |
 | rjcb-alois.ini/.py          | 帯広 Obihiro (RJCB)   | Aloisさん                      | Ver 1.0                       | 2024/02/18 Updated |
 | rjck-karuchie.ini/.py          | 釧路 Kushiro (RJCK)   | karuchieさん                      | Ver 1.1                       | 2024/02/03 Updated |
-| rｊcn-alois.ini/.py          | 中標津 Nakashibetsu (RJCN)   | Aloisさん                      | Ver 1.0                       | 2024/05/05 Released |
+| rjcn-alois.ini/.py          | 中標津 Nakashibetsu (RJCN)   | Aloisさん                      | Ver 1.0                       | 2024/05/05 Released |
 | rjeb-alois_marin_karuchie.ini/.py          | 紋別 Monbetsu (RJEB)   | Aloisさん<br>Marinさん<br>Karuchieさん                      | Ver 1.0                       | 2024/02/24 Released |
 | rjec-mfsg.ini/.py          | 旭川 Asahikawa (RJEC)   | MFSG                     | Ver 1.0                       | 2024/02/18 Updated |
 | rjer-g15_marin.ini/.py          | 利尻 Rishiri (RJER)   | Gate15Scenery<br>Marinさん                     | Ver 1.0                       | 2024/02/17 Released |
