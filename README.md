@@ -60,10 +60,13 @@ Google Map: https://www.google.com/maps/d/u/3/edit?mid=1qhnhZHAZv8GJ76quQZC9RZpL
 | rjth-karuchie.ini/.py            | 八丈島 Hachijojima (RJTH) | karuchieさん                         | Ver 1.0                             | 2024/02/17 Released |
 | rjoa-kaze.ini/.py              | 広島 Hiroshima (RJOA) | KAZEさん                          | Ver 1.2                       | 2024/02/24 Updated |
 | rjok-mfsg.ini/.py            | 高知 Kochi (RJOK) | MFSG                         | Ver 1.0                             | 2024/02/17 Released |
-| rjoo-kado.ini/.py            | 大阪国際 Osaka International (RJOO) | KADOさん                         | Ver 1.1            | 2024/02/03 Updated |
+| rjoo-kado.ini/.py            | 大阪国際 Osaka International (RJOO) | KADOさん                         | Ver 1.2            | 2024/05/18 Updated |
 | rjot-kado.ini/.py            | 高松 Takamatsu (RJOT) | KADOさん                         | Ver 1.0                             | 2024/03/15 Released |
 | rjtt-karuchie.ini/.py            | 東京国際（羽田）Tokyo International (Haneda) (RJTT) | kaurchieさん                          | Ver 1.0                | 2024/04/20 Released |
 | roig-keisim.ini/.py            | 新石垣 New Ishigaki (ROIG) | Keisimさん                          | Ver 1.2                | 2024/02/24 Updated |
+| roig-keisim.ini/.py            | 新石垣 New Ishigaki (ROIG) | Keisimさん                          | Ver 1.2                | 2024/02/24 Updated |
+| rjoi-permille.ini/.py            | 岩国 Iwakuni (RJOI) | permilleさん                          | Ver 1.0                | 2024/05/18 Released  |
+| rjcm-gaochan_alois_rip.ini/.py            | 女満別 Memanbetsu (RJOI) | GAOCHANさん<br>Aloisさん<br>RIPさん      | Ver 1.0                | 2024/05/18 Released  |
 
 ### ライセンス Licensing 
 本リポジトリは、以下の作品を除き、GPLv3ライセンスを利用しています：
