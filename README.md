@@ -48,19 +48,22 @@ Currently, please download the newest release on https://github.com. To install 
 Google Map: https://www.google.com/maps/d/u/3/edit?mid=1qhnhZHAZv8GJ76quQZC9RZpLdB4ASFI&usp=sharing
 | プロファイル名 Profile Name▼ | 空港 Airport           | シーナリー作者 Scenery Creator | バージョン Version | リリース日/アップデート日 Release/Update Date |
 | -----------                | -----------           | -----------                   | -----------                    | ----------- |
+| rjbe-kaze.ini/.py          | 神戸 Kobe (RJBE) | KAZEさん                      | Ver 1.0                       | 2024/06/01 Released |
 | rjcb-alois.ini/.py          | 帯広 Obihiro (RJCB)   | Aloisさん                      | Ver 1.0                       | 2024/02/18 Updated |
 | rjck-karuchie.ini/.py          | 釧路 Kushiro (RJCK)   | karuchieさん                      | Ver 1.1                       | 2024/02/03 Updated |
+| rjcm-gaochan_alois_rip.ini/.py            | 女満別 Memanbetsu (RJCM) | GAOCHANさん<br>Aloisさん<br>RIPさん      | Ver 1.0                | 2024/05/18 Released  |
 | rjcn-alois.ini/.py          | 中標津 Nakashibetsu (RJCN)   | Aloisさん                      | Ver 1.0                       | 2024/05/05 Released |
 | rjeb-alois_marin_karuchie.ini/.py          | 紋別 Monbetsu (RJEB)   | Aloisさん<br>Marinさん<br>Karuchieさん                      | Ver 1.0                       | 2024/02/24 Released |
 | rjec-mfsg.ini/.py          | 旭川 Asahikawa (RJEC)   | MFSG                     | Ver 1.0                       | 2024/02/18 Updated |
-| rjer-g15_marin.ini/.py          | 利尻 Rishiri (RJER)   | Gate15Scenery<br>Marinさん                     | Ver 1.0                       | 2024/02/17 Released |
+| rjer-g15_marin.ini/.py          | 利尻 Rishiri (RJER)   | G15 (v1)/Marinさん  <br>  Gate15Scenery (v2)    | Ver 1.0 <br>  Ver 1.0                     | 2024/02/17 Released <br> 2024/06/01 Released|
 | rjfr-mfsg.ini              | 北九州 Kitakyushu (RJFR) | MFSG                          | Ver 1.0                        | 2024/01/28 Released |
 | rjsk-fssa.ini/.py              | 秋田 Akita (RJSK) | FSSA                          | Ver 1.3                           | 2024/04/20 Updated |
 | rjsr-highmemfix.ini/.py              | 大館能代 Odate-Noshiro (RJSR) | Highmemfixさん                          | Ver 1.0                           | 2024/02/17 Released |
 | rjth-karuchie.ini/.py            | 八丈島 Hachijojima (RJTH) | karuchieさん                         | Ver 1.0                             | 2024/02/17 Released |
 | rjoa-kaze.ini/.py              | 広島 Hiroshima (RJOA) | KAZEさん                          | Ver 1.2                       | 2024/02/24 Updated |
+| rjoi-permille.ini/.py            | 岩国 Iwakuni (RJOI) | permilleさん                          | Ver 1.0                | 2024/05/18 Released  |
 | rjok-mfsg.ini/.py            | 高知 Kochi (RJOK) | MFSG                         | Ver 1.0                             | 2024/02/17 Released |
-| rjoo-kado.ini/.py            | 大阪国際 Osaka International (RJOO) | KADOさん                         | Ver 1.1            | 2024/02/03 Updated |
+| rjoo-kado.ini/.py            | 大阪国際 Osaka International (RJOO) | KADOさん                         | Ver 1.2            | 2024/05/18 Updated |
 | rjot-kado.ini/.py            | 高松 Takamatsu (RJOT) | KADOさん                         | Ver 1.0                             | 2024/03/15 Released |
 | rjtt-karuchie.ini/.py            | 東京国際（羽田）Tokyo International (Haneda) (RJTT) | kaurchieさん                          | Ver 1.0                | 2024/04/20 Released |
 | roig-keisim.ini/.py            | 新石垣 New Ishigaki (ROIG) | Keisimさん                          | Ver 1.2                | 2024/02/24 Updated |
