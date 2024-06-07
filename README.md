@@ -113,5 +113,6 @@ Here is a simple procedure on how to contribute on github without git VCS.  If y
 - ANA7875 (@ANA7875_fwc) 
 - ろくまる (@60Kumaru)
 - Sanrok (@sanrok_)
-- RIN
+- RIN (@RIIIIIN3180)
 - Legotatsu
+- FUK_Driver (@FUK_Nob0525)
