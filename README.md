@@ -56,7 +56,7 @@ Google Map: https://www.google.com/maps/d/u/3/edit?mid=1qhnhZHAZv8GJ76quQZC9RZpL
 | rjeb-alois_marin_karuchie.ini/.py | 紋別 Monbetsu (RJEB)   | Aloisさん<br>Marinさん<br>Karuchieさん                      | Ver 1.0                       | 2024/02/24 Released |
 | rjec-mfsg.ini/.py          | 旭川 Asahikawa (RJEC)   | MFSG                     | Ver 1.0                       | 2024/02/18 Updated |
 | rjer-g15_marin.ini/.py <br> rjer-g15_v2.ini/.py         | 利尻 Rishiri (RJER)   | G15 (v1)/Marinさん  <br>  Gate15Scenery (v2)    | Ver 1.0 <br>  Ver 1.0                     | 2024/02/17 Released <br> 2024/06/01 Released|
-| rjff-snjsim.ini              | 福岡 Fukuoka (RJFF) | SNJSIM                          | Ver 1.0                        | 2024/06/07 Released |
+| rjff-snjsim.ini/.py        | 福岡 Fukuoka (RJFF) | SNJSIM                          | Ver 1.0                        | 2024/06/07 Released |
 | rjfr-mfsg.ini              | 北九州 Kitakyushu (RJFR) | MFSG                          | Ver 1.0                        | 2024/01/28 Released |
 | rjsk-fssa.ini/.py              | 秋田 Akita (RJSK) | FSSA                          | Ver 1.3                           | 2024/04/20 Updated |
 | rjsr-highmemfix.ini/.py              | 大館能代 Odate-Noshiro (RJSR) | Highmemfixさん                          | Ver 1.0                           | 2024/02/17 Released |
