@@ -47,6 +47,7 @@ Currently, please download the newest release on https://github.com. To install 
 Google Map: https://www.google.com/maps/d/u/3/edit?mid=1qhnhZHAZv8GJ76quQZC9RZpLdB4ASFI&usp=sharing
 | プロファイル名 Profile Name▼ | 空港 Airport           | シーナリー作者 Scenery Creator | バージョン Version | リリース日/アップデート日 Release/Update Date |
 | -----------                | -----------           | -----------                   | -----------                    | ----------- |
+| rjbd-tsuji.ini/.py          | 南紀白浜 Nanki-Shirahama (RJBD) | Tsujiさん                      | Ver 1.0                       | 2024/09/08 Released |
 | rjbe-kaze.ini/.py          | 神戸 Kobe (RJBE) | KAZEさん                      | Ver 1.0                       | 2024/06/01 Released |
 | rjcb-alois.ini/.py          | 帯広 Obihiro (RJCB)   | Aloisさん                      | Ver 1.1                       | 2024/06/07 Updated |
 | rjck-karuchie.ini/.py          | 釧路 Kushiro (RJCK)   | karuchieさん                      | Ver 1.1                       | 2024/02/03 Updated |
@@ -117,3 +118,5 @@ Here is a simple procedure on how to contribute on github without git VCS.  If y
 - Legotatsu
 - FUK_Driver (@FUK_Nob0525)
 - Yuta (@Aobuta34)
+- Takama (@B77W_JPN)
+- ろぼたん (@robotaaaan)
