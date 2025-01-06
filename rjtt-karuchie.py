@@ -1,4 +1,6 @@
-﻿# This program is free software: you can redistribute it and/or modify
+﻿# -- coding: utf-8 --
+
+# This program is free software: you can redistribute it and/or modify
 # it under the terms of the GNU General Public License as published by
 # the Free Software Foundation, either version 3 of the License, or
 # (at your option) any later version.
@@ -2287,7 +2289,7 @@ parkings = {
         64 : (CustomizedName("Gates-T2 (53-65) Domestic|Spot #§ [ANA]"), customOffset_Spot65),
         65 : (CustomizedName("Gates-T2 (53-65) Domestic|Spot #§ [ANA]"), customOffset_Spot65),
         66 : (CustomizedName("Gates-T2 (66-70) Swing|Spot #§ [ANA {DOM/INT}]"), customOffset_Spot66),
-        67 : (CustomizedName("Gates-T2 (66-70) Swing|Spot #§ [ANA {DOM/INT}]"), ), # Use GSX standard
+        67 : (CustomizedName("Gates-T2 (66-70) Swing|Spot #§ [ANA {DOM/INT}]"), customOffset_Spot71),
         68 : (CustomizedName("Gates-T2 (66-70) Swing|Spot #§ [ANA {DOM/INT}]"), customOffset_Spot68),
         69 : (CustomizedName("Gates-T2 (66-70) Swing|Spot #§ [ANA {DOM/INT}]"), customOffset_Spot69),
         70 : (CustomizedName("Gates-T2 (66-70) Swing|Spot #§ [ANA {DOM/INT}]"), customOffset_Spot70),
@@ -2320,7 +2322,7 @@ parkings = {
         # Terminal 2 Satellite
         406 : (CustomizedName("Gates-T2 (406-408) Satellite|Spot #§ [ANA/SNA]"), customOffset_Spot406),
         407 : (CustomizedName("Gates-T2 (406-408) Satellite|Spot #§ [ANA/SNA]"), customOffset_Spot406),
-        408 : (CustomizedName("Gates-T2 (406-408) Satellite|Spot #§ [ANA/SNA]"), customOffset_Spot406),
+        408 : (CustomizedName("Gates-T2 (406-408) Satellite|Spot #§ [ANA/SNA]"), customOffset_noOffset),
 
         # Terminal 2 Boarding Station
         503 : (CustomizedName("Gates-T2 (500s) Boarding Station|Spot #§ [ANA/SNA]"), customOffset_Spot503),
@@ -2467,6 +2469,7 @@ parkings = {
         954 : (CustomizedName("N-Area|Spot #§"), ),
         955 : (CustomizedName("N-Area|Spot #§"), ),
         956 : (CustomizedName("N-Area|Spot #§"), ),
+        957 : (CustomizedName("N-Area|Spot #§"), ),
         961 : (CustomizedName("N-Area|Spot #§"), ),
         962 : (CustomizedName("N-Area|Spot #§"), ),
         963 : (CustomizedName("N-Area|Spot #§"), ),
@@ -2512,6 +2515,6 @@ parkings = {
         # Terminal 1 Okidome
         1 : (CustomizedName("Open VIP Spots|[CLSD] Spot #§"), ),
         2 : (CustomizedName("Open VIP Spots|[CLSD] Spot #§"), ),
-        0 : (CustomizedName("Open VIP Spots|Spot #§ [ALL]"), customOffset_SpotVS),
+        0 : (CustomizedName("Open VIP Spots|Spot V#§ [ALL]"), customOffset_SpotVS),
     }
 }
