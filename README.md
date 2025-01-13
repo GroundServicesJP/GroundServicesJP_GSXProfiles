@@ -49,7 +49,7 @@ Google Map: https://www.google.com/maps/d/u/3/edit?mid=1qhnhZHAZv8GJ76quQZC9RZpL
 | -----------                | -----------           | -----------                   | -----------                    | ----------- |
 | rjbd-tsuji.ini/.py          | 南紀白浜 Nanki-Shirahama (RJBD) | Tsujiさん                      | Ver 1.0                       | 2024/09/08 Released |
 | rjbe-kaze.ini/.py          | 神戸 Kobe (RJBE) | KAZEさん                      | Ver 1.0                       | 2024/06/01 Released |
-| rjcb-alois.ini/.py          | 帯広 Obihiro (RJCB)   | Aloisさん                      | Ver 1.1                       | 2024/06/07 Updated |
+| rjcb-alois.ini/.py          | 帯広 Obihiro (RJCB)   | Aloisさん                      | Ver 1.2                       | 2025/01/12 Updated |
 | rjck-karuchie.ini/.py          | 釧路 Kushiro (RJCK)   | karuchieさん                      | Ver 1.1                       | 2024/02/03 Updated |
 | rjcm-gaochan_alois_rip.ini/.py            | 女満別 Memanbetsu (RJCM) | GAOCHANさん<br>Aloisさん<br>RIPさん      | Ver 1.0                | 2024/05/18 Released  |
 | rjcn-alois.ini/.py          | 中標津 Nakashibetsu (RJCN)   | Aloisさん                      | Ver 1.0                       | 2024/05/05 Released |
