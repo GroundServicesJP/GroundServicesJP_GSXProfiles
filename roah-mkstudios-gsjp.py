@@ -64,10 +64,17 @@ def customOffset_Spot23(aircraftData):
         10: 0.,
     }
 
+    table350 = {
+        900: -3.63,
+        1000: 0.,
+    }
+
     if aircraftData.idMajor == 777:
         return Distance.fromMeters(table777.get(aircraftData.idMinor,0))
     elif aircraftData.idMajor == 787:
         return Distance.fromMeters(table787.get(aircraftData.idMinor,0))
+    elif aircraftData.idMajor == 350:
+        return Distance.fromMeters(table350.get(aircraftData.idMinor,0))
     return Distance.fromMeters(mainTable.get(aircraftData.idMajor,0))
 
 @AlternativeStopPositions
@@ -115,10 +122,17 @@ def customOffset_Spot25(aircraftData):
         10: 0.,
     }
 
+    table350 = {
+        900: -2.88,
+        1000: 0.,
+    }
+
     if aircraftData.idMajor == 777:
         return Distance.fromMeters(table777.get(aircraftData.idMinor,0))
     elif aircraftData.idMajor == 787:
         return Distance.fromMeters(table787.get(aircraftData.idMinor,0))
+    elif aircraftData.idMajor == 350:
+        return Distance.fromMeters(table350.get(aircraftData.idMinor,0))
     return Distance.fromMeters(mainTable.get(aircraftData.idMajor,0))
 
 @AlternativeStopPositions
@@ -148,10 +162,17 @@ def customOffset_Spot26(aircraftData):
         10: 0.,
     }
 
+    table350 = {
+        900: -2.83,
+        1000: 0.,
+    }
+
     if aircraftData.idMajor == 777:
         return Distance.fromMeters(table777.get(aircraftData.idMinor,0))
     elif aircraftData.idMajor == 787:
         return Distance.fromMeters(table787.get(aircraftData.idMinor,0))
+    elif aircraftData.idMajor == 350:
+        return Distance.fromMeters(table350.get(aircraftData.idMinor,0))
     return Distance.fromMeters(mainTable.get(aircraftData.idMajor,0))
 
 @AlternativeStopPositions
@@ -198,11 +219,18 @@ def customOffset_Spot32(aircraftData):
         9: 0.,
         10: 0.,
     }
+    
+    table350 = {
+        900: -2.88,
+        1000: 0.,
+    }
 
     if aircraftData.idMajor == 777:
         return Distance.fromMeters(table777.get(aircraftData.idMinor,0))
     elif aircraftData.idMajor == 787:
         return Distance.fromMeters(table787.get(aircraftData.idMinor,0))
+    elif aircraftData.idMajor == 350:
+        return Distance.fromMeters(table350.get(aircraftData.idMinor,0))
     return Distance.fromMeters(mainTable.get(aircraftData.idMajor,0))
 
 @AlternativeStopPositions
@@ -232,10 +260,17 @@ def customOffset_Spot33(aircraftData):
         10: 0.,
     }
 
+    table350 = {
+        900: -2.88,
+        1000: 0.,
+    }
+
     if aircraftData.idMajor == 777:
         return Distance.fromMeters(table777.get(aircraftData.idMinor,0))
     elif aircraftData.idMajor == 787:
         return Distance.fromMeters(table787.get(aircraftData.idMinor,0))
+    elif aircraftData.idMajor == 350:
+        return Distance.fromMeters(table350.get(aircraftData.idMinor,0))
     return Distance.fromMeters(mainTable.get(aircraftData.idMajor,0))
 
 @AlternativeStopPositions
@@ -265,10 +300,17 @@ def customOffset_Spot35(aircraftData):
         10: 0.,
     }
 
+    table350 = {
+        900: -2.88,
+        1000: 0.,
+    }
+
     if aircraftData.idMajor == 777:
         return Distance.fromMeters(table777.get(aircraftData.idMinor,0))
     elif aircraftData.idMajor == 787:
         return Distance.fromMeters(table787.get(aircraftData.idMinor,0))
+    elif aircraftData.idMajor == 350:
+        return Distance.fromMeters(table350.get(aircraftData.idMinor,0))
     return Distance.fromMeters(mainTable.get(aircraftData.idMajor,0))
 
 @AlternativeStopPositions
@@ -298,10 +340,17 @@ def customOffset_Spot36(aircraftData):
         10: 0.,
     }
 
+    table350 = {
+        900: -2.88,
+        1000: 0.,
+    }
+
     if aircraftData.idMajor == 777:
         return Distance.fromMeters(table777.get(aircraftData.idMinor,0))
     elif aircraftData.idMajor == 787:
         return Distance.fromMeters(table787.get(aircraftData.idMinor,0))
+    elif aircraftData.idMajor == 350:
+        return Distance.fromMeters(table350.get(aircraftData.idMinor,0))
     return Distance.fromMeters(mainTable.get(aircraftData.idMajor,0))
 
 @AlternativeStopPositions
@@ -352,6 +401,11 @@ def customOffset_Spot42(aircraftData):
         8: second_loc, # 56.72m
         9: 0., # 62.81m
         10: 0., # 68.28m
+    }
+
+    table350 = {
+        900: second_loc,
+        1000: 0.,
     }
 
     if aircraftData.idMajor == 330:
