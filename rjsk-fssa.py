@@ -13,14 +13,87 @@
 
 msfs_mode = 1
 
+@AlternativeStopPositions
+def customOffset_noOffset(aircraftData):
+    return Distance.fromMeters(0.)
+
+@AlternativeStopPositions
+def customOffset_Spot3(aircraftData):
+    # Product of GSJP
+    T_loc = 0.
+    first = -0.94
+
+    mainTable = {
+        0: T_loc,
+        767: first,
+        787: first,
+    }
+
+    return Distance.fromMeters(mainTable.get(aircraftData.idMajor,T_loc))
+
+@AlternativeStopPositions
+def customOffset_Spot5(aircraftData):
+    # Product of GSJP
+    T_loc = 0.
+    first = -0.6
+    second = -0.9
+
+    mainTable = {
+        0: first,
+        319: first,
+        320: first,
+        321: first,
+        737: T_loc,
+        # ERJ
+        195: T_loc, 
+        190: T_loc,
+        175: T_loc, 
+        170: T_loc, 
+        # Q400
+        1008: T_loc,
+        #Heavy
+        767: second,
+        787: second,
+    }
+
+    return Distance.fromMeters(mainTable.get(aircraftData.idMajor,first))
+
+@AlternativeStopPositions
+def customOffset_Spot6(aircraftData):
+    # Product of GSJP
+    T_loc = 0.
+    first = -0.9
+    second = -18.5
+
+    mainTable = {
+        0: first,
+        319: first,
+        320: first,
+        321: first,
+        737: first,
+        # ERJ
+        195: first, 
+        190: first,
+        175: second, 
+        170: second, 
+        # Q400
+        1008: second,
+        #Heavy
+        767: T_loc,
+        787: T_loc,
+    }
+
+    return Distance.fromMeters(mainTable.get(aircraftData.idMajor,first))
+
+
 parkings = {
     0 : {
         None : (),
-        1 : (CustomizedName("Apron Stand|Spot #§"), ),
-        2 : (CustomizedName("Apron Gate|Spot #§ [JAL]"), ),
-        3 : (CustomizedName("Apron Gate|Spot #§ [ANA/JAL/ORC]"), ),
-        5 : (CustomizedName("Apron Gate|Spot #§ [ANA/ORC]"), ),
-        6 : (CustomizedName("Apron Stand|Spot #§ [ANA/JAL/ORC]"), ),
+        1 : (CustomizedName("Apron Stand|Spot #§"), customOffset_noOffset),
+        2 : (CustomizedName("Apron Gate|Spot #§"), customOffset_noOffset),
+        3 : (CustomizedName("Apron Gate|Spot #§"), customOffset_Spot3),
+        5 : (CustomizedName("Apron Gate|Spot #§"), customOffset_Spot5),
+        6 : (CustomizedName("Apron Stand|Spot #§"), customOffset_Spot6),
         11 : (CustomizedName("East Apron|Spot #§"), ),
         12 : (CustomizedName("East Apron|Spot #§"), ),
         13 : (CustomizedName("East Apron|Spot #§"), ),
