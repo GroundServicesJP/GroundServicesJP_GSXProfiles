@@ -12,16 +12,42 @@
 # along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 msfs_mode = 1
+version = 1.1
+
+@AlternativeStopPositions
+def customOffset_noOffset(aircraftData):
+    return Distance.fromMeters(0.)
+
+@AlternativeStopPositions
+def customOffset_Spot2(aircraftData):
+    # Product of GSJP
+    first = -2.1
+    second = -3.2
+
+    mainTable = {
+        0: 0.,
+        320: second,
+        321: first,
+        737: first,
+        # ERJ
+        195: second, 
+        190: second,
+        175: second, 
+        170: second, 
+        1008: second,
+    }
+
+    return Distance.fromMeters(mainTable.get(aircraftData.idMajor,0.))
 
 parkings = {
     GATE : {
         None : (),
-        3 : (CustomizedName("Gate|Spot #§ [ANA]"), ),
+        3 : (CustomizedName("Apron Gates|Spot #§ [ANA]"), customOffset_Spot2),
     },
     PARKING : {
         None : (),
-        1 : (CustomizedName("Stand|Spot #§"), ),
-        2 : (CustomizedName("Stand|Spot #§"), ),
+        1 : (CustomizedName("Apron Stands|Spot #§"), customOffset_noOffset),
+        2 : (CustomizedName("Apron Stands|Spot #§"), customOffset_Spot2),
     },
     0 : {
         5 : (CustomizedName("GA Parking|#§"), ),
