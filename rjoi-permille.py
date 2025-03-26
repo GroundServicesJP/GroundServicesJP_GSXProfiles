@@ -14,6 +14,7 @@
 # along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 msfs_mode = 1
+version = 1.1
 
 @AlternativeStopPositions
 def customOffset_noOffset(aircraftData):
