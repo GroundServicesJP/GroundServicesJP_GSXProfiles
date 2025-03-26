@@ -51,7 +51,7 @@ Google Map: https://www.google.com/maps/d/u/3/edit?mid=1qhnhZHAZv8GJ76quQZC9RZpL
 | rjbe-kaze.ini/.py          | 神戸 Kobe (RJBE) | KAZEさん                      | Ver 1.0                       | 2024/06/01 Released |
 | rjcb-alois.ini/.py          | 帯広 Obihiro (RJCB)   | Aloisさん                      | Ver 1.3                       | 2025/01/27 Updated |
 | rjck-karuchie.ini/.py          | 釧路 Kushiro (RJCK)   | karuchieさん                      | Ver 1.1                       | 2024/02/03 Updated |
-| rjcm-gaochan_alois_rip.ini/.py            | 女満別 Memanbetsu (RJCM) | GAOCHANさん<br>Aloisさん<br>RIPさん      | Ver 1.0                | 2024/05/18 Released  |
+| rjcm-gaochan_alois_rip.ini/.py            | 女満別 Memanbetsu (RJCM) | GAOCHANさん<br>Aloisさん<br>RIPさん      | Ver 1.1                | 2025/03/26 Updated  |
 | rjcn-alois.ini/.py          | 中標津 Nakashibetsu (RJCN)   | Aloisさん                      | Ver 1.1                       | 2025/03/22 Released |
 | rjeb-alois_marin_karuchie.ini/.py | 紋別 Monbetsu (RJEB)   | Aloisさん<br>Marinさん<br>Karuchieさん                      | Ver 1.0                       | 2024/02/24 Released |
 | rjec-mfsg.ini/.py          | 旭川 Asahikawa (RJEC)   | MFSG                     | Ver 1.0                       | 2024/02/18 Updated |
@@ -60,14 +60,14 @@ Google Map: https://www.google.com/maps/d/u/3/edit?mid=1qhnhZHAZv8GJ76quQZC9RZpL
 | rjfr-mfsg.ini              | 北九州 Kitakyushu (RJFR) | MFSG                          | Ver 1.0                        | 2024/01/28 Released |
 | rjft-keisim.ini/.py   <br> rjft-snjsim.ini/.py        | 熊本 Kumamoto (RJFT) | Keisimさん  <br>   SNJSIM      | Ver 1.0                | 2025/03/09 Released |
 | rjoa-kaze.ini/.py              | 広島 Hiroshima (RJOA) | KAZEさん                          | Ver 1.2                       | 2024/02/24 Updated |
-| rjoi-permille.ini/.py            | 岩国 Iwakuni (RJOI) | permilleさん                          | Ver 1.0                | 2024/05/18 Released  |
+| rjoi-permille.ini/.py            | 岩国 Iwakuni (RJOI) | permilleさん                          | Ver 1.1                | 2025/03/26 Released  |
 | rjok-mfsg.ini/.py            | 高知 Kochi (RJOK) | MFSG                         | Ver 1.0                             | 2024/02/17 Released |
 | rjoo-kado.ini/.py            | 大阪国際 Osaka International (RJOO) | KADOさん                         | Ver 1.2            | 2024/05/18 Updated |
 | rjot-kado.ini/.py            | 高松 Takamatsu (RJOT) | KADOさん                         | Ver 1.0                             | 2024/03/15 Released |
 | rjsk-fssa.ini/.py              | 秋田 Akita (RJSK) | FSSA                          | Ver 1.4                           | 2025/03/09 Updated |
 | rjsr-highmemfix.ini/.py              | 大館能代 Odate-Noshiro (RJSR) | Highmemfixさん                          | Ver 1.0                           | 2024/02/17 Released |
 | rjss-kaze.ini/.py              | 仙台 Sendai (RJSS) | KAZEさん                          | Ver 1.0                           | 2024/09/20 Released |
-| rjth-karuchie.ini/.py            | 八丈島 Hachijojima (RJTH) | karuchieさん                         | Ver 1.0                             | 2024/02/17 Released |
+| rjth-karuchie.ini/.py            | 八丈島 Hachijojima (RJTH) | karuchieさん                         | Ver 1.1                             | 2025/03/26 Updated |
 | rjtt-karuchie.ini/.py            | 東京国際（羽田） Tokyo International (Haneda) (RJTT) | kaurchieさん                          | Ver 1.1                | 2025/01/06 Updated |
 | roah-mkstudios-gsjp.ini/.py            | 那覇 Naha (ROAH) | MK-STUDIOS                          | Ver 1.3                | 2025/03/09 Updated |
 | roig-keisim.ini/.py            | 新石垣 New Ishigaki (ROIG) | Keisimさん                          | Ver 1.4                | 2025/01/27 Updated |
