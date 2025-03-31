@@ -1,4 +1,5 @@
 ﻿msfs_mode = 1
+version = 1.1
 icao="rjot"
 
 @AlternativeStopPositions
