@@ -48,7 +48,7 @@ Google Map: https://www.google.com/maps/d/u/3/edit?mid=1qhnhZHAZv8GJ76quQZC9RZpL
 | プロファイル名 Profile Name▼ | 空港 Airport           | シーナリー作者 Scenery Creator | バージョン Version | リリース日/アップデート日 Release/Update Date |
 | -----------                | -----------           | -----------                   | -----------                    | ----------- |
 | rjbd-tsuji.ini/.py          | 南紀白浜 Nanki-Shirahama (RJBD) | Tsujiさん                      | Ver 1.1                       | 2025/03/31 Updated |
-| rjbe-kaze.ini/.py          | 神戸 Kobe (RJBE) | KAZEさん                      | Ver 1.0                       | 2024/06/01 Released |
+| rjbe-kaze.ini/.py          | 神戸 Kobe (RJBE) | KAZEさん                      | Ver 1.1                       | 2025/04/18 Updated |
 | rjcb-alois.ini/.py          | 帯広 Obihiro (RJCB)   | Aloisさん                      | Ver 1.3                       | 2025/01/27 Updated |
 | rjck-karuchie.ini/.py          | 釧路 Kushiro (RJCK)   | karuchieさん                      | Ver 1.2                       | 2025/03/31 Updated |
 | rjcm-gaochan_alois_rip.ini/.py            | 女満別 Memanbetsu (RJCM) | GAOCHANさん<br>Aloisさん<br>RIPさん      | Ver 1.1                | 2025/03/26 Updated  |
