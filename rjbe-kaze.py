@@ -12,6 +12,7 @@
 # along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 msfs_mode = 1
+version = 1.1
 
 @AlternativeStopPositions
 def customOffset_noOffset(aircraftData):
@@ -167,20 +168,20 @@ def customOffset_Spot10(aircraftData):
 parkings = {
     GATE :{
         None : (),
-        3 : (CustomizedName("Apron Gate|SPOT #§"), customOffset_Spot3),
-        4 : (CustomizedName("Apron Gate|SPOT #§"), customOffset_Spot4),
-        5 : (CustomizedName("Apron Gate|SPOT #§"), customOffset_Spot5),
-        6 : (CustomizedName("Apron Gate|SPOT #§"), customOffset_Spot6),
-        7 : (CustomizedName("Apron Gate|SPOT #§"), customOffset_Spot7),
+        3 : (CustomizedName("Gates-T1 Domestic|SPOT #§"), customOffset_Spot3),
+        4 : (CustomizedName("Gates-T1 Domestic|SPOT #§"), customOffset_Spot4),
+        5 : (CustomizedName("Gates-T1 Domestic|SPOT #§"), customOffset_Spot5),
+        6 : (CustomizedName("Gates-T1 Domestic|SPOT #§"), customOffset_Spot6),
+        7 : (CustomizedName("Gates-T1 Domestic|SPOT #§"), customOffset_Spot7),
     }, 
 
     PARKING :{
         None : (),
-        1 : (CustomizedName("Apron Stand|SPOT #§"), customOffset_Spot4),
-        2 : (CustomizedName("Apron Stand|SPOT #§"), customOffset_Spot7),
-        8 : (CustomizedName("Apron Stand|SPOT #§"), customOffset_Spot8),
-        9 : (CustomizedName("Apron Stand|SPOT #§"), customOffset_Spot8),
-        10 : (CustomizedName("Apron Stand|SPOT #§"), customOffset_Spot10),
+        1 : (CustomizedName("Stands-T1 Domestic|SPOT #§"), customOffset_Spot4),
+        2 : (CustomizedName("Stands-T1 Domestic|SPOT #§ [TOK]"), customOffset_Spot7),
+        8 : (CustomizedName("Stands-T1 Domestic|SPOT #§"), customOffset_Spot8),
+        9 : (CustomizedName("Stands-T1 Domestic|SPOT #§"), customOffset_Spot8),
+        10 : (CustomizedName("Stands-T1 Domestic|SPOT #§"), customOffset_Spot10),
 
         11 : (CustomizedName("{Heli} East Apron|Parking"), ),
 
