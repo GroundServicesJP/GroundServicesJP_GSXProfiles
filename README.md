@@ -59,7 +59,7 @@ Google Map: https://www.google.com/maps/d/u/3/edit?mid=1qhnhZHAZv8GJ76quQZC9RZpL
 | rjff-snjsim.ini/.py        | 福岡 Fukuoka (RJFF) | SNJSIM                          | Ver 1.2                        | 2025/01/27 Updated |
 | rjfr-mfsg.ini              | 北九州 Kitakyushu (RJFR) | MFSG                          | Ver 1.0                        | 2024/01/28 Released |
 | rjft-keisim.ini/.py   <br> rjft-snjsim.ini/.py        | 熊本 Kumamoto (RJFT) | Keisimさん  <br>   SNJSIM      | Ver 1.0                | 2025/03/09 Released |
-| rjoa-kaze.ini/.py              | 広島 Hiroshima (RJOA) | KAZEさん                          | Ver 1.2                       | 2024/02/24 Updated |
+| rjoa-kaze_karuchie.ini/.py              | 広島 Hiroshima (RJOA) | KAZEさん<br>Karuchieさん                          | Ver 1.3                       | 2025/04/28 Updated |
 | rjoi-permille.ini/.py            | 岩国 Iwakuni (RJOI) | permilleさん                          | Ver 1.1                | 2025/03/26 Released  |
 | rjok-mfsg.ini/.py            | 高知 Kochi (RJOK) | MFSG                         | Ver 1.0                             | 2024/02/17 Released |
 | rjoo-kado.ini/.py            | 大阪国際 Osaka International (RJOO) | KADOさん                         | Ver 1.2            | 2024/05/18 Updated |
