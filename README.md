@@ -63,7 +63,7 @@ Google Map: https://www.google.com/maps/d/u/3/edit?mid=1qhnhZHAZv8GJ76quQZC9RZpL
 | rjoi-permille.ini/.py            | 岩国 Iwakuni (RJOI) | permilleさん                          | Ver 1.1                | 2025/03/26 Released  |
 | rjok-mfsg.ini/.py            | 高知 Kochi (RJOK) | MFSG                         | Ver 1.0                             | 2024/02/17 Released |
 | rjoo-kado.ini/.py            | 大阪国際 Osaka International (RJOO) | KADOさん                         | Ver 1.2            | 2024/05/18 Updated |
-| rjot-kado.ini/.py            | 高松 Takamatsu (RJOT) | KADOさん                         | Ver 1.1                             | 2025/03/31 Updated |
+| rjot-kado.ini/.py            | 高松 Takamatsu (RJOT) | KADOさん                         | Ver 1.2                             | 2025/05/01 Updated |
 | rjsk-fssa.ini/.py              | 秋田 Akita (RJSK) | FSSA                          | Ver 1.4                           | 2025/03/09 Updated |
 | rjsr-highmemfix.ini/.py              | 大館能代 Odate-Noshiro (RJSR) | Highmemfixさん                          | Ver 1.0                           | 2024/02/17 Released |
 | rjss-kaze.ini/.py              | 仙台 Sendai (RJSS) | KAZEさん                          | Ver 1.0                           | 2024/09/20 Released |
