@@ -65,7 +65,7 @@ Google Map: https://www.google.com/maps/d/u/3/edit?mid=1qhnhZHAZv8GJ76quQZC9RZpL
 | rjoo-kado.ini/.py            | 大阪国際 Osaka International (RJOO) | KADOさん                         | Ver 1.2            | 2024/05/18 Updated |
 | rjot-kado.ini/.py            | 高松 Takamatsu (RJOT) | KADOさん                         | Ver 1.2                             | 2025/05/01 Updated |
 | rjsk-fssa.ini/.py              | 秋田 Akita (RJSK) | FSSA                          | Ver 1.4                           | 2025/03/09 Updated |
-| rjsr-highmemfix.ini/.py              | 大館能代 Odate-Noshiro (RJSR) | Highmemfixさん                          | Ver 1.0                           | 2024/02/17 Released |
+| rjsr-yusuke.ini/.py              | 大館能代 Odate-Noshiro (RJSR) | yusukeさん                          | Ver 1.1                           | 2025/05/06 Updated |
 | rjss-kaze.ini/.py              | 仙台 Sendai (RJSS) | KAZEさん                          | Ver 1.0                           | 2024/09/20 Released |
 | rjth-karuchie.ini/.py            | 八丈島 Hachijojima (RJTH) | karuchieさん                         | Ver 1.1                             | 2025/03/26 Updated |
 | rjtt-karuchie.ini/.py            | 東京国際（羽田） Tokyo International (Haneda) (RJTT) | kaurchieさん                          | Ver 1.1                | 2025/01/06 Updated |
