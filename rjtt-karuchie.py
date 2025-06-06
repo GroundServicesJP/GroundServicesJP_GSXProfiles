@@ -1,19 +1,22 @@
-﻿# -- coding: utf-8 --
+# -- coding: utf-8 --
 
+# Copyright (C) 2025 GroundServicesJP TEAM HANEDA (Rokumaru, RIN, ANA7875)
+#
 # This program is free software: you can redistribute it and/or modify
 # it under the terms of the GNU General Public License as published by
 # the Free Software Foundation, either version 3 of the License, or
 # (at your option) any later version.
-
+#
 # This program is distributed in the hope that it will be useful,
 # but WITHOUT ANY WARRANTY; without even the implied warranty of
 # MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
 # GNU General Public License for more details.
-
+#
 # You should have received a copy of the GNU General Public License
 # along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 msfs_mode = 1
+version = 1.2
 
 ## No offset
 @AlternativeStopPositions
@@ -2275,27 +2278,27 @@ parkings = {
         24 : (CustomizedName("Gates-T1 Domestic|[CLSD] Spot #§"), ),
 
         # Terminal 2
-        53 : (CustomizedName("Gates-T2 (53-65) Domestic|Spot #§ [SNA/ADO/ANA]"), customOffset_Spot53),
-        54 : (CustomizedName("Gates-T2 (53-65) Domestic|Spot #§ [SNA/ADO/ANA]"), customOffset_Spot54),
-        55 : (CustomizedName("Gates-T2 (53-65) Domestic|Spot #§ [ADO/SNA/ANA]"), customOffset_Spot55),
-        56 : (CustomizedName("Gates-T2 (53-65) Domestic|Spot #§ [ADO/SNA/ANA]"), customOffset_Spot56),
-        57 : (CustomizedName("Gates-T2 (53-65) Domestic|Spot #§ [ANA/SNA/ADO]"), customOffset_Spot53),
-        58 : (CustomizedName("Gates-T2 (53-65) Domestic|Spot #§ [ANA]"), customOffset_Spot58),
-        59 : (CustomizedName("Gates-T2 (53-65) Domestic|Spot #§ [ANA]"), customOffset_Spot65),
-        60 : (CustomizedName("Gates-T2 (53-65) Domestic|Spot #§ [ANA]"), customOffset_Spot65),
-        61 : (CustomizedName("Gates-T2 (53-65) Domestic|Spot #§ [ANA]"), customOffset_Spot65),
-        62 : (CustomizedName("Gates-T2 (53-65) Domestic|Spot #§ [ANA]"), customOffset_Spot65),
-        63 : (CustomizedName("Gates-T2 (53-65) Domestic|Spot #§ [ANA]"), customOffset_Spot65),
-        64 : (CustomizedName("Gates-T2 (53-65) Domestic|Spot #§ [ANA]"), customOffset_Spot65),
-        65 : (CustomizedName("Gates-T2 (53-65) Domestic|Spot #§ [ANA]"), customOffset_Spot65),
-        66 : (CustomizedName("Gates-T2 (66-70) Swing|Spot #§ [ANA {DOM/INT}]"), customOffset_Spot66),
-        67 : (CustomizedName("Gates-T2 (66-70) Swing|Spot #§ [ANA {DOM/INT}]"), customOffset_Spot71),
-        68 : (CustomizedName("Gates-T2 (66-70) Swing|Spot #§ [ANA {DOM/INT}]"), customOffset_Spot68),
-        69 : (CustomizedName("Gates-T2 (66-70) Swing|Spot #§ [ANA {DOM/INT}]"), customOffset_Spot69),
-        70 : (CustomizedName("Gates-T2 (66-70) Swing|Spot #§ [ANA {DOM/INT}]"), customOffset_Spot70),
-        71 : (CustomizedName("Gates-T2 (71-73) International|Spot #§ [ANA]"), customOffset_Spot71),
-        72 : (CustomizedName("Gates-T2 (71-73) International|Spot #§ [ANA]"), customOffset_Spot73),
-        73 : (CustomizedName("Gates-T2 (71-73) International|Spot #§ [ANA]"), customOffset_Spot73),
+        53 : (CustomizedName("Gates-T2 (406-408, 50-65) Domestic|Spot #§ [SNA/ADO/ANA]"), customOffset_Spot53),
+        54 : (CustomizedName("Gates-T2 (406-408, 50-65) Domestic|Spot #§ [SNA/ADO/ANA]"), customOffset_Spot54),
+        55 : (CustomizedName("Gates-T2 (406-408, 50-65) Domestic|Spot #§ [ADO/SNA/ANA]"), customOffset_Spot55),
+        56 : (CustomizedName("Gates-T2 (406-408, 50-65) Domestic|Spot #§ [ADO/SNA/ANA]"), customOffset_Spot56),
+        57 : (CustomizedName("Gates-T2 (406-408, 50-65) Domestic|Spot #§ [ANA/SNA/ADO]"), customOffset_Spot53),
+        58 : (CustomizedName("Gates-T2 (406-408, 50-65) Domestic|Spot #§ [ANA]"), customOffset_Spot58),
+        59 : (CustomizedName("Gates-T2 (406-408, 50-65) Domestic|Spot #§ [ANA]"), customOffset_Spot65),
+        60 : (CustomizedName("Gates-T2 (406-408, 50-65) Domestic|Spot #§ [ANA]"), customOffset_Spot65),
+        61 : (CustomizedName("Gates-T2 (406-408, 50-65) Domestic|Spot #§ [ANA]"), customOffset_Spot65),
+        62 : (CustomizedName("Gates-T2 (406-408, 50-65) Domestic|Spot #§ [ANA]"), customOffset_Spot65),
+        63 : (CustomizedName("Gates-T2 (406-408, 50-65) Domestic|Spot #§ [ANA]"), customOffset_Spot65),
+        64 : (CustomizedName("Gates-T2 (406-408, 50-65) Domestic|Spot #§ [ANA]"), customOffset_Spot65),
+        65 : (CustomizedName("Gates-T2 (406-408, 50-65) Domestic|Spot #§ [ANA]"), customOffset_Spot65),
+        66 : (CustomizedName("Gates-T2 (66-73) International|Spot #§ [ANA]"), customOffset_Spot66),
+        67 : (CustomizedName("Gates-T2 (66-73) International|Spot #§ [ANA]"), customOffset_Spot71),
+        68 : (CustomizedName("Gates-T2 (66-73) International|Spot #§ [ANA]"), customOffset_Spot68),
+        69 : (CustomizedName("Gates-T2 (66-73) International|Spot #§ [ANA]"), customOffset_Spot69),
+        70 : (CustomizedName("Gates-T2 (66-73) International|Spot #§ [ANA]"), customOffset_Spot70),
+        71 : (CustomizedName("Gates-T2 (66-73) International|Spot #§ [ANA]"), customOffset_Spot71),
+        72 : (CustomizedName("Gates-T2 (66-73) International|Spot #§ [ANA]"), customOffset_Spot73),
+        73 : (CustomizedName("Gates-T2 (66-73) International|Spot #§ [ANA]"), customOffset_Spot73),
 
         # Terminal 3
         105 : (CustomizedName("Gates-T3 International|Spot #§ [INTL]"), customOffset_Spot105),
@@ -2320,9 +2323,9 @@ parkings = {
         149 : (CustomizedName("Gates-T3 International|Spot #§ [INTL]"), customOffset_Spot149),
 
         # Terminal 2 Satellite
-        406 : (CustomizedName("Gates-T2 (406-408) Satellite|Spot #§ [ANA/SNA]"), customOffset_Spot406),
-        407 : (CustomizedName("Gates-T2 (406-408) Satellite|Spot #§ [ANA/SNA]"), customOffset_Spot406),
-        408 : (CustomizedName("Gates-T2 (406-408) Satellite|Spot #§ [ANA/SNA]"), customOffset_noOffset),
+        406 : (CustomizedName("Gates-T2 (406-408, 50-65) Domestic|Spot #§ [ANA/SNA]"), customOffset_Spot406),
+        407 : (CustomizedName("Gates-T2 (406-408, 50-65) Domestic|Spot #§ [ANA/SNA]"), customOffset_Spot406),
+        408 : (CustomizedName("Gates-T2 (406-408, 50-65) Domestic|Spot #§ [ANA/SNA]"), customOffset_noOffset),
 
         # Terminal 2 Boarding Station
         503 : (CustomizedName("Gates-T2 (500s) Boarding Station|Spot #§ [ANA/SNA]"), customOffset_Spot503),
