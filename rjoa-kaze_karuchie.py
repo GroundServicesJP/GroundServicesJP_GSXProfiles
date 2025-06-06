@@ -1,4 +1,4 @@
-﻿# -- coding: utf-8 --
+# -- coding: utf-8 --
 
 # Copyright (C) 2025 GroundServicesJP (Rokumaru, ANA7875)
 #
