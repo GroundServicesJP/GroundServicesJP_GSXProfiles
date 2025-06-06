@@ -1,17 +1,22 @@
-﻿# This program is free software: you can redistribute it and/or modify
+# -- coding: utf-8 --
+
+# Copyright (C) 2025 GroundServicesJP (Rokumaru)
+#
+# This program is free software: you can redistribute it and/or modify
 # it under the terms of the GNU General Public License as published by
 # the Free Software Foundation, either version 3 of the License, or
 # (at your option) any later version.
-
+#
 # This program is distributed in the hope that it will be useful,
 # but WITHOUT ANY WARRANTY; without even the implied warranty of
 # MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
 # GNU General Public License for more details.
-
+#
 # You should have received a copy of the GNU General Public License
 # along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 msfs_mode = 1
+version = 1.5
 
 @AlternativeStopPositions
 def customOffset_noOffset(aircraftData):
@@ -89,18 +94,18 @@ def customOffset_Spot6(aircraftData):
 parkings = {
     0 : {
         None : (),
-        1 : (CustomizedName("Apron Stand|Spot #§"), customOffset_noOffset),
-        2 : (CustomizedName("Apron Gate|Spot #§"), customOffset_noOffset),
-        3 : (CustomizedName("Apron Gate|Spot #§"), customOffset_Spot3),
-        5 : (CustomizedName("Apron Gate|Spot #§"), customOffset_Spot5),
-        6 : (CustomizedName("Apron Stand|Spot #§"), customOffset_Spot6),
-        11 : (CustomizedName("East Apron|Spot #§"), ),
-        12 : (CustomizedName("East Apron|Spot #§"), ),
-        13 : (CustomizedName("East Apron|Spot #§"), ),
-        14 : (CustomizedName("East Apron|Spot #§"), ),
-        15 : (CustomizedName("East Apron|Spot #§"), ),
-        16 : (CustomizedName("East Apron|Spot #§"), ),
-        17 : (CustomizedName("East Apron|Spot #§"), ),
+        1 : (CustomizedName("Apron Stand|SPOT #§"), customOffset_noOffset),
+        2 : (CustomizedName("Apron Gate|SPOT #§"), customOffset_noOffset),
+        3 : (CustomizedName("Apron Gate|SPOT #§"), customOffset_Spot3),
+        5 : (CustomizedName("Apron Gate|SPOT #§"), customOffset_Spot5),
+        6 : (CustomizedName("Apron Stand|SPOT #§"), customOffset_Spot6),
+        11 : (CustomizedName("East Apron|SPOT #§"), ),
+        12 : (CustomizedName("East Apron|SPOT #§"), ),
+        13 : (CustomizedName("East Apron|SPOT #§"), ),
+        14 : (CustomizedName("East Apron|SPOT #§"), ),
+        15 : (CustomizedName("East Apron|SPOT #§"), ),
+        16 : (CustomizedName("East Apron|SPOT #§"), ),
+        17 : (CustomizedName("East Apron|SPOT #§"), ),
         101 : (CustomizedName("AK Apron|1"), ),
         102 : (CustomizedName("AK Apron|2"), ),
         103 : (CustomizedName("AK Apron|3"), ),
