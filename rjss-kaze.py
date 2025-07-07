@@ -16,7 +16,7 @@
 # along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 msfs_mode = 1
-version = 1.1
+version = 1.2
 
 @AlternativeStopPositions
 def customOffset_noOffset(aircraftData):
@@ -42,8 +42,11 @@ def customOffset_Spot4(aircraftData):
         190: third,
         175: third, 
         170: third, 
-        #CRJ900
-        900: fourth,
+        #CRJ
+        200: second,
+        700: second,
+        900: second,
+        1000: second,
         #Q400
         1008: fourth,
         #ATR
@@ -89,8 +92,11 @@ def customOffset_Spot6(aircraftData):
         190: second,
         175: second, 
         170: second, 
-        #CRJ900
+        #CRJ
+        200: second,
+        700: second,
         900: second,
+        1000: second,
         #Q400
         1008: second,
         #ATR
@@ -131,8 +137,11 @@ def customOffset_Spot8(aircraftData):
         190: first,
         175: first, 
         170: first, 
-        #CRJ900
+        #CRJ
+        200: second,
+        700: second,
         900: second,
+        1000: second,
         #Q400
         1008: second,
         #ATR
@@ -141,6 +150,51 @@ def customOffset_Spot8(aircraftData):
     }
 
     return Distance.fromMeters(mainTable.get(aircraftData.idMajor,0))
+
+@AlternativeStopPositions
+def customOffset_Spot11(aircraftData):
+    # Product of GSJP
+    common_regional = {42, 72, 1008, 200, 700, 900, 1000}
+    if (aircraftData.idMajor in common_regional) or (aircraftData.aircraftGroup in {"ARC-A", "ARC-B"}):
+        return Distance.fromMeters(-3.), Distance.fromMeters(9.35)
+    else:
+        return Distance.fromMeters(0.)
+    
+@AlternativeStopPositions
+def customOffset_Spot12(aircraftData):
+    # Product of GSJP
+    common_regional = {42, 72, 1008, 200, 700, 900, 1000}
+    if (aircraftData.idMajor in common_regional) or (aircraftData.aircraftGroup in {"ARC-A", "ARC-B"}):
+        return Distance.fromMeters(-3.), Distance.fromMeters(7.25)
+    else:
+        return Distance.fromMeters(0.)
+    
+@AlternativeStopPositions
+def customOffset_Spot13(aircraftData):
+    # Product of GSJP
+    common_regional = {42, 72, 1008, 200, 700, 900, 1000}
+    if (aircraftData.idMajor in common_regional) or (aircraftData.aircraftGroup in {"ARC-A", "ARC-B"}):
+        return Distance.fromMeters(-3.), Distance.fromMeters(8.5)
+    else:
+        return Distance.fromMeters(0.)
+    
+@AlternativeStopPositions
+def customOffset_Spot14(aircraftData):
+    # Product of GSJP
+    common_regional = {42, 72, 1008, 200, 700, 900, 1000}
+    if (aircraftData.idMajor in common_regional) or (aircraftData.aircraftGroup in {"ARC-A", "ARC-B"}):
+        return Distance.fromMeters(-2.7), Distance.fromMeters(8.32)
+    else:
+        return Distance.fromMeters(0.)
+    
+@AlternativeStopPositions
+def customOffset_Spot1(aircraftData):
+    # Product of GSJP
+    common_regional = {42, 72, 1008, 200, 700, 900, 1000}
+    if (aircraftData.idMajor in common_regional) or (aircraftData.aircraftGroup in {"ARC-A", "ARC-B"}):
+        return Distance.fromMeters(-18.86), Distance.fromMeters(7.)
+    else:
+        return Distance.fromMeters(0.)
 
 parkings = {
     GATE : {
@@ -155,18 +209,18 @@ parkings = {
 
     PARKING : {
         None : (CustomizedName("{MIL} JSDF-G Apron|#§"),),
-        1 : (CustomizedName("Apron Stands (1, 11-14)|SPOT #§"), customOffset_noOffset),
+        1 : (CustomizedName("Apron Stands (1, 11-14)|SPOT #§"), customOffset_Spot1),
         8 : (CustomizedName("Apron Pier Bldg (8-10)|SPOT #§ [Domestic]"), customOffset_Spot8),
         9 : (CustomizedName("Apron Pier Bldg (8-10)|SPOT #§ [Domestic]"), customOffset_Spot8),
         10 : (CustomizedName("Apron Pier Bldg (8-10)|SPOT #§ [Domestic]"), customOffset_Spot8),
-        11 : (CustomizedName("Apron Stands (1, 11-14)|SPOT #§ [TOK/IBEX]"), customOffset_noOffset),
-        12 : (CustomizedName("Apron Stands (1, 11-14)|SPOT #§ [TOK/IBEX]"), customOffset_noOffset),
-        13 : (CustomizedName("Apron Stands (1, 11-14)|SPOT #§ [TOK/IBEX]"), customOffset_noOffset),
-        14 : (CustomizedName("Apron Stands (1, 11-14)|SPOT #§ [TOK/IBEX]"), customOffset_noOffset),
+        11 : (CustomizedName("Apron Stands (1, 11-14)|SPOT #§ [TOK/IBEX]"), customOffset_Spot11),
+        12 : (CustomizedName("Apron Stands (1, 11-14)|SPOT #§ [TOK/IBEX]"), customOffset_Spot12),
+        13 : (CustomizedName("Apron Stands (1, 11-14)|SPOT #§ [TOK/IBEX]"), customOffset_Spot13),
+        14 : (CustomizedName("Apron Stands (1, 11-14)|SPOT #§ [TOK/IBEX]"), customOffset_Spot14),
 
         42 : (CustomizedName("JCG Apron|C"), ),
         43 : (CustomizedName("JCG Apron|D"), ),
-        88 : (CustomizedName("JCG Apron|#§"), ),
+        88 : (CustomizedName("JCG Apron|Main"), ),
         89 : (CustomizedName("JCG Apron|B"), ),
         90 : (CustomizedName("JCG Apron|A"), ),
         99 : (CustomizedName("JCG Apron|#§"), ),
