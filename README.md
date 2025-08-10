@@ -50,6 +50,7 @@ Google Map: https://www.google.com/maps/d/u/3/edit?mid=1qhnhZHAZv8GJ76quQZC9RZpL
 | rjbd-tsuji.ini/.py          | 南紀白浜 Nanki-Shirahama (RJBD) | Tsujiさん                      | Ver 1.2                       | 2025/06/06 Updated |
 | rjbe-kaze.ini/.py          | 神戸 Kobe (RJBE) | KAZEさん                      | Ver 1.2                      | 2025/06/06 Updated |
 | rjcb-alois.ini/.py          | 帯広 Obihiro (RJCB)   | Aloisさん                      | Ver 1.4                       | 2025/06/06 Updated |
+| rjcc-kapi_karuchie.ini/.py          | 新千歳 New Chitose (RJCC)   | KAZEさん<br>Karuchieさん    | Ver 1.0                       | 2025/08/10 Released |
 | rjck-karuchie.ini/.py          | 釧路 Kushiro (RJCK)   | karuchieさん                      | Ver 1.3                       | 2025/06/06 Updated |
 | rjcm-gaochan_alois_rip.ini/.py            | 女満別 Memanbetsu (RJCM) | GAOCHANさん<br>Aloisさん<br>RIPさん      | Ver 1.1                | 2025/03/26 Updated  |
 | rjcn-alois.ini/.py          | 中標津 Nakashibetsu (RJCN)   | Aloisさん                      | Ver 1.1                       | 2025/03/22 Released |
