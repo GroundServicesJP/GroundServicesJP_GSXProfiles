@@ -70,7 +70,7 @@ Google Map: https://www.google.com/maps/d/u/3/edit?mid=1qhnhZHAZv8GJ76quQZC9RZpL
 | rjsr-yusuke.ini/.py              | 大館能代 Odate-Noshiro (RJSR) | yusukeさん                          | Ver 1.2                           | 2025/06/06 Updated |
 | rjss-kaze.ini/.py              | 仙台 Sendai (RJSS) | KAZEさん                          | Ver 1.2                           | 2025/07/07 Updated |
 | rjth-karuchie.ini/.py            | 八丈島 Hachijojima (RJTH) | karuchieさん                         | Ver 1.2                             | 2025/06/06 Updated |
-| rjtt-karuchie.ini/.py            | 東京国際（羽田） Tokyo International (Haneda) (RJTT) | kaurchieさん                          | Ver 1.2                | 2025/06/06 Updated |
+| rjtt-karuchie.ini/.py            | 東京国際（羽田） Tokyo International (Haneda) (RJTT) | karuchieさん                          | Ver 1.3                | 2025/11/26 Updated |
 | roah-mkstudios-gsjp.ini/.py            | 那覇 Naha (ROAH) | MK-STUDIOS                          | Ver 1.3                | 2025/03/09 Updated |
 | roig-keisim.ini/.py            | 石垣 Ishigaki (ROIG) | Keisimさん                          | Ver 1.5                | 2025/06/06 Updated |
 
