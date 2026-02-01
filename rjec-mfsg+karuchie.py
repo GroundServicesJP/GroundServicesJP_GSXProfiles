@@ -1,6 +1,6 @@
 # -- coding: utf-8 --
 
-# Copyright (C) 2025 GroundServicesJP
+# Copyright (C) 2026 GroundServicesJP
 #
 # This program is free software: you can redistribute it and/or modify
 # it under the terms of the GNU General Public License as published by
@@ -16,7 +16,7 @@
 # along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 msfs_mode = 1
-version = 1.1
+version = 1.2
 
 @AlternativeStopPositions
 def customOffset_noOffset(aircraftData):
@@ -25,19 +25,27 @@ def customOffset_noOffset(aircraftData):
 parkings = {
     GATE : {
         None : (),
-        1 : (CustomizedName("Apron Stand|SPOT #§ "), customOffset_noOffset),
-        2 : (CustomizedName("Apron Gate|SPOT #§ [JAL/JJP]"), customOffset_noOffset),
-        3 : (CustomizedName("Apron Gate|SPOT #§ [JAL/JJP/ADO/ANA]"), customOffset_noOffset),
-        4 : (CustomizedName("Apron Gate|SPOT #§ [ADO/ANA/INTL]"), customOffset_noOffset),
-        5 : (CustomizedName("Apron Gate|SPOT #§ [INTL]"), customOffset_noOffset),
+        2 : (CustomizedName("Apron Gate|SPOT #§ [JJP/JAL/SJO]", 1), customOffset_noOffset),
+        3 : (CustomizedName("Apron Gate|SPOT #§ [JAL/JJP]", 1), customOffset_noOffset),
+        4 : (CustomizedName("Apron Gate|SPOT #§ [ADO/ANA]", 1), customOffset_noOffset),
+        5 : (CustomizedName("Apron Gate|SPOT #§ [ADO/ANA/INTL]", 1), customOffset_noOffset),
     },
     PARKING : {
         None : (),
-        11 : (CustomizedName("GA Parking|SPOT #§"), ),
-        12 : (CustomizedName("GA Parking|SPOT #§"), ),
-        13 : (CustomizedName("GA Parking|SPOT #§"), ),
-        14 : (CustomizedName("GA Parking|SPOT #§"), ),
-        15 : (CustomizedName("GA Parking|SPOT #§"), ),
-    }
+        1 : (CustomizedName("Apron Stand|SPOT #§", 2), customOffset_noOffset),
+        11 : (CustomizedName("GA Parking|SPOT #§", 3), ),
+        12 : (CustomizedName("GA Parking|SPOT #§", 3), ),
+        13 : (CustomizedName("GA Parking|SPOT #§", 3), ),
+        14 : (CustomizedName("GA Parking|SPOT #§", 3), ),
+        15 : (CustomizedName("GA Parking|SPOT #§", 3), ),
+    },
+    E_PARKING : {
+        None : (),
+        1 : (CustomizedName("GA Parking|SPOT 1-E", 3),),
+    },
+    W_PARKING : {
+        None : (),
+        1 : (CustomizedName("GA Parking|SPOT 1-W", 3),),
+    },
 }
 
