@@ -80,7 +80,7 @@
       },
       {
         "code": "HTS",
-        "display_name": "Haneda Turtle Service [Remote Towing Only]"
+        "display_name": "Haneda Turtle Service [Towing Only]"
       }
     ],
     "GGOURMET"
@@ -114,7 +114,7 @@
     ""
   ],
   "VJC": [
-    "Swissport",
+    "SWISSPORT",
     "TFK"
   ],
   "TTW": [
@@ -215,6 +215,10 @@
   ],
   "CQH": [
     "JAL",
+    "TFK"
+  ],
+  "SAS": [
+    "SWISSPORT",
     "TFK"
   ],
   "AIC": [
