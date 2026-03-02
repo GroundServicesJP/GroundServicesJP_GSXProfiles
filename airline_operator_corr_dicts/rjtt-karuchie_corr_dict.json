@@ -1,0 +1,224 @@
+{
+  "ANA": [
+    "ANA",
+    "ANA"
+  ],
+  "AKX": [
+    "ANA",
+    "ANA"
+  ],
+  "AJX": [
+    "ANA",
+    "ANA"
+  ],
+  "APJ": [
+    "ANA",
+    "ANA"
+  ],
+  "ADO": [
+    "ANA",
+    "ANA"
+  ],
+  "SNJ": [
+    "6J",
+    "ANA"
+  ],
+  "SFJ": [
+    "ANA",
+    "ANA"
+  ],
+  "JAL": [
+    "JL",
+    [
+      {
+        "code": "JAL",
+        "display_name": "JAL Royal Catering [INTL]"
+      },
+      {
+        "code": "TFK",
+        "display_name": "TFK [Domestic]"
+      }
+    ]
+  ],
+  "JTA": [
+    "JL",
+    "TFK"
+  ],
+  "JLJ": [
+    "JL",
+    "TFK"
+  ],
+  "JAC": [
+    "JL",
+    "TFK"
+  ],
+  "HAC": [
+    "JL",
+    "TFK"
+  ],
+  "JJP": [
+    "JL",
+    "TFK"
+  ],
+  "SJO": [
+    "JL",
+    "TFK"
+  ],
+  "SKY": [
+    "BC",
+    "TFK"
+  ],
+  "UAE": [
+    "SWISSPORT",
+    "GGOURMET"
+  ],
+  "THA": [
+    [
+      {
+        "code": "CKTS",
+        "display_name": "CKTS [Ground Handling and Pushback]"
+      },
+      {
+        "code": "HTS",
+        "display_name": "Haneda Turtle Service [Remote Towing Only]"
+      }
+    ],
+    "GGOURMET"
+  ],
+  "AFR": [
+    "SWISSPORT",
+    "TFK"
+  ],
+  "AAR": [
+    "ANA",
+    "ANA"
+  ],
+  "HKE": [
+    "SWISSPORT",
+    "TFK"
+  ],
+  "PAL": [
+    "ANA",
+    "COSMO"
+  ],
+  "KAL": [
+    "KAAS",
+    "TFK"
+  ],
+  "DKH": [
+    "SWISSPORT",
+    "ANA"
+  ],
+  "GCR": [
+    "CKTS",
+    ""
+  ],
+  "VJC": [
+    "Swissport",
+    "TFK"
+  ],
+  "TTW": [
+    "HTS",
+    ""
+  ],
+  "CAL": [
+    "JAL",
+    "COSMO"
+  ],
+  "CCA": [
+    "JAL",
+    "TFK"
+  ],
+  "CES": [
+    "JAL",
+    "TFK"
+  ],
+  "QFA": [
+    "JAL",
+    "GGOURMET"
+  ],
+  "SIA": [
+    "ANA",
+    "ANA"
+  ],
+  "BAW": [
+    "JAL",
+    "COSMO"
+  ],
+  "CPA": [
+    "CKTS",
+    "COSMO"
+  ],
+  "EVA": [
+    "ANA",
+    "ANA"
+  ],
+  "CSN": [
+    "JAL",
+    "TFK"
+  ],
+  "DLH": [
+    "ANA",
+    "GGOURMET"
+  ],
+  "GIA": [
+    "ANA",
+    "ANA"
+  ],
+  "AAL": [
+    "JAL",
+    "COSMO"
+  ],
+  "ITY": [
+    "JAL",
+    "TFK"
+  ],
+  "CSH": [
+    "CKTS",
+    "TFK"
+  ],
+  "DAL": [
+    "HTS",
+    "TFK"
+  ],
+  "UAL": [
+    "JAL",
+    "GGOURMET"
+  ],
+  "HVN": [
+    "ANA",
+    "ANA"
+  ],
+  "ACA": [
+    "HTS",
+    "TFK"
+  ],
+  "HAL": [
+    "JAL",
+    "COSMO"
+  ],
+  "VOZ": [
+    "SWISSPORT",
+    "TFK"
+  ],
+  "FIN": [
+    "CKTS",
+    "ANA"
+  ],
+  "THY": [
+    "JAL",
+    "TFK"
+  ],
+  "XAX": [
+    "CKTS",
+    "TFK"
+  ],
+  "CQH": [
+    "JAL",
+    "TFK"
+  ],
+  "AIC": [
+    "SWISSPORT",
+    "TFK"
+  ]
+}
