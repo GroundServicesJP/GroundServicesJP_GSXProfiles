@@ -23,7 +23,7 @@
 
 # Top Level Defines
 PROFILE_STEM = "rjoo-kado"
-BRANCH_STEM = "handler_test"
+BRANCH_STEM = "main"
 AIR_OPR_CORRELATION_URL = f"https://raw.githubusercontent.com/GroundServicesJP/GroundServicesJP_GSXProfiles/{BRANCH_STEM}/airline_operator_corr_dicts/{PROFILE_STEM}_corr_dict.json"
 INI_PROFILE_URL = f"https://raw.githubusercontent.com/GroundServicesJP/GroundServicesJP_GSXProfiles/{BRANCH_STEM}/{PROFILE_STEM}.ini"
 PY_PROFILE_URL = f"https://raw.githubusercontent.com/GroundServicesJP/GroundServicesJP_GSXProfiles/{BRANCH_STEM}/{PROFILE_STEM}.py"

@@ -23,14 +23,14 @@
 
 # Top Level Defines
 PROFILE_STEM = "rjtt-karuchie"
-BRANCH_STEM = "handler_test"
+BRANCH_STEM = "main"
 AIR_OPR_CORRELATION_URL = f"https://raw.githubusercontent.com/GroundServicesJP/GroundServicesJP_GSXProfiles/{BRANCH_STEM}/airline_operator_corr_dicts/{PROFILE_STEM}_corr_dict.json"
 INI_PROFILE_URL = f"https://raw.githubusercontent.com/GroundServicesJP/GroundServicesJP_GSXProfiles/{BRANCH_STEM}/{PROFILE_STEM}.ini"
 PY_PROFILE_URL = f"https://raw.githubusercontent.com/GroundServicesJP/GroundServicesJP_GSXProfiles/{BRANCH_STEM}/{PROFILE_STEM}.py"
 
 # Debug Flags
 DISABLE_AUTO_OPR_SELECTION = False # Set to True to disable automatic operator selection based on airline ICAO code, and always use profile defaults
-DISABLE_AUTO_PROFILE_UPDATES = True # Set to True to disable automatic fetching of profile updates from GitHub, and always use local files
+DISABLE_AUTO_PROFILE_UPDATES = False # Set to True to disable automatic fetching of profile updates from GitHub, and always use local files
 
 # Shared library checks
 def try_require(req_name):
