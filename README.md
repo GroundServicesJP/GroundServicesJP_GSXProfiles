@@ -33,7 +33,7 @@ https://github.com/GroundServicesJP/GroundServicesJP_GSXProfiles
 
 1. GSXProのプロファイル(.ini) をインストールするため、`%AppData%\Virtuali\GSX\MSFS`を開きます。  
 2. 同じ空港の古いプロファイル（自動生成されたプロファイル、ご自身で作成されたプロファイルなど）が既に存在している場合は、バックアップのうえ削除してください。  
-3. `.ini`と`.py``_handler.py`とファイルを `%AppData%\Virtuali\GSX\MSFS` にペーストしてください。
+3. `.ini`と`.py`と`_handler.py`とファイルを `%AppData%\Virtuali\GSX\MSFS` にペーストしてください。
 4. リポジトリ内の`lib`フォルダにある`.py`ファイルを、`%APPDATA%\Virtuali\Handlers\lib` にペーストしてください。詳しくは：https://gsjp.info/gsx-handlers/. 
 
 ※`.ini`ファイル内のAFCAD.bglの書き込み欄は空欄のままで問題ありません。 
