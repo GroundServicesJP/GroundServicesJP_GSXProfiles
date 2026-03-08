@@ -25,7 +25,6 @@
 PROFILE_STEM = "rjoo-kado"
 BRANCH_STEM = "handler_test"
 AIR_OPR_CORRELATION_URL = f"https://raw.githubusercontent.com/GroundServicesJP/GroundServicesJP_GSXProfiles/{BRANCH_STEM}/airline_operator_corr_dicts/{PROFILE_STEM}_corr_dict.json"
-BUS_CORRELATION_URL = f"https://raw.githubusercontent.com/GroundServicesJP/GroundServicesJP_GSXProfiles/{BRANCH_STEM}/airline_bus_corr_dicts/{PROFILE_STEM}_bus_corr_dict.json"
 INI_PROFILE_URL = f"https://raw.githubusercontent.com/GroundServicesJP/GroundServicesJP_GSXProfiles/{BRANCH_STEM}/{PROFILE_STEM}.ini"
 PY_PROFILE_URL = f"https://raw.githubusercontent.com/GroundServicesJP/GroundServicesJP_GSXProfiles/{BRANCH_STEM}/{PROFILE_STEM}.py"
 
@@ -43,12 +42,11 @@ def try_require(req_name):
     return None
 
 def checkRequirements():
-  global mototok_handler, operator_correlator, auto_profile_fetcher, model_disabler, bus_selector
+  global mototok_handler, operator_correlator, auto_profile_fetcher, model_disabler
   mototok_handler = try_require("gsjp_mototok_handler_v1")
   operator_correlator = try_require("gsjp_operator_correlation_v1")
   auto_profile_fetcher = try_require("gsjp_auto_profile_fetch_v1")
   model_disabler = try_require("gsjp_model_disabler_v1")
-  bus_selector = try_require("gsjp_bus_selector_v1")
   all_libs_available = (mototok_handler is not None
                         and operator_correlator is not None
                         and auto_profile_fetcher is not None
