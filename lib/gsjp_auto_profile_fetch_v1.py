@@ -27,10 +27,10 @@ def checkIfNeedAutoFetchProfile(self, INI_PROFILE_URL, PY_PROFILE_URL):
                                         caption="GroundServicesJP Auto Profile Download",
                                         choices=auto_fetch_profile_options, 
                                         default=1)
-  if auto_fetch_profile_choice == 0:
-    print("[GSJP Auto-Fetch] User opted-in of automatic profile updates. Local profile files will be used.")
+  if auto_fetch_profile_choice == 1:
+    print("[GSJP Auto-Fetch] User opted-out of automatic profile updates. Local profile files will be used.")
   else:
-    print("[GSJP Auto-Fetch] User opted-out of automatic profile updates. Attempting to fetch latest profile files from GitHub.")
+    print("[GSJP Auto-Fetch] User opted-in of automatic profile updates.")
 
     ini_fetched = fetchINI(INI_PROFILE_URL)
     py_fetched = fetchPY(PY_PROFILE_URL)
