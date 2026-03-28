@@ -19,14 +19,12 @@
 
 # Airport handler script for RJFS (profile: rjfs-snjsim)
 # Applies to all aircraft at RJFS
-# Version 0.9 Beta
+# Version 0.91 Beta
 
 # Top Level Defines
 PROFILE_STEM = "rjfs-snjsim"
 BRANCH_STEM = "main"
 AIR_OPR_CORRELATION_URL = f"https://raw.githubusercontent.com/GroundServicesJP/GroundServicesJP_GSXProfiles/{BRANCH_STEM}/airline_operator_corr_dicts/{PROFILE_STEM}_corr_dict.json"
-INI_PROFILE_URL = f"https://raw.githubusercontent.com/GroundServicesJP/GroundServicesJP_GSXProfiles/{BRANCH_STEM}/{PROFILE_STEM}.ini"
-PY_PROFILE_URL = f"https://raw.githubusercontent.com/GroundServicesJP/GroundServicesJP_GSXProfiles/{BRANCH_STEM}/{PROFILE_STEM}.py"
 
 # Debug Flags
 DISABLE_AUTO_FETCH_PROFILE = False # Set to True to disable automatic fetching of profile updates from GitHub, and always use local files
@@ -40,16 +38,13 @@ def try_require(req_name):
   except Exception as e:
     print(f"[GSJP] Failed to load library: {req_name}, Error: {e}")
     return None
+mototok_handler = try_require("gsjp_mototok_handler_v1")
+operator_correlator = try_require("gsjp_operator_correlation_v1")
+model_disabler = try_require("gsjp_model_disabler_v1")
 
 def checkRequirements():
-  global mototok_handler, operator_correlator, auto_profile_fetcher, model_disabler
-  mototok_handler = try_require("gsjp_mototok_handler_v1")
-  operator_correlator = try_require("gsjp_operator_correlation_v1")
-  auto_profile_fetcher = try_require("gsjp_auto_profile_fetch_v1")
-  model_disabler = try_require("gsjp_model_disabler_v1")
   all_libs_available = (mototok_handler is not None
                         and operator_correlator is not None
-                        and auto_profile_fetcher is not None
                         and model_disabler is not None)
 
   if not all_libs_available:
@@ -74,24 +69,33 @@ FALLBACK_AIRLINE_OPERATOR_CORRELATION = {
   "SJO": ("JL", "")
 }
 
+# Initialization tasks to need to be done on the first hook that gate data is available
+def run_initialization_tasks(self):
+  # Requires gate context
+  gate = getGate()
+  if gate is not None:
+    if not DISABLE_AUTO_OPR_SELECTION and operator_correlator is not None:
+      operator_correlator.checkIfNeedAirlineOperatorCorrelation(self, aircraft.icaoAirline, FALLBACK_AIRLINE_OPERATOR_CORRELATION, AIR_OPR_CORRELATION_URL)
+    if not DISABLE_AUTO_MOTOTOK_RESTRICTION and mototok_handler is not None:
+      mototok_handler.modifyIfMototokCantBeUsedAtRJFS(self, aircraft.icaoAirline, aircraft.icaoType)
+      mototok_handler.stopMototokEarlyConnect(self)
+    if not gate.hasJetway: 
+      # Disable Rear Exit for non-jetway SPOT
+      print("[GSJP] Disabling rear exit for SPOT without PBB.")
+      disableExit(EXIT_PASSENGERS, 3)
+
 ################################ Inject in GSX Hooks ###############################
 def onEnterAirport(self):
   checkRequirements()
-  if not DISABLE_AUTO_FETCH_PROFILE:
-    auto_profile_fetcher.checkIfNeedAutoFetchProfile(self, INI_PROFILE_URL, PY_PROFILE_URL)
 
 def onAirportBeforeVehicleSelect(self):
   gate = getGate()
   if gate:
-    if not DISABLE_AUTO_OPR_SELECTION:
-      operator_correlator.checkIfNeedAirlineOperatorCorrelation(self, aircraft.icaoAirline, FALLBACK_AIRLINE_OPERATOR_CORRELATION, AIR_OPR_CORRELATION_URL)
-    if not DISABLE_AUTO_MOTOTOK_RESTRICTION:
-      mototok_handler.modifyIfMototokCantBeUsedAtRJFS(self, aircraft.icaoAirline, aircraft.icaoType)
-      mototok_handler.stopMototokEarlyConnect(self)
+    run_initialization_tasks(self)
 
 def onVehicleCandidatesScored(self, vehicleType, candidates):
   gate = getGate()
-  if vehicleType == "Pushback" and gate and gate.pushbackType == 3:
+  if vehicleType == "Pushback" and gate and gate.pushbackType == 3 and mototok_handler is not None:
     mototok_handler.selectMototokForANARJFS(self, candidates, aircraft.icaoAirline, aircraft.icaoType)
-  if "BaggageLoader" in vehicleType:
+  if "BaggageLoader" in vehicleType and model_disabler is not None:
     model_disabler.disableCCL35S(self, candidates)

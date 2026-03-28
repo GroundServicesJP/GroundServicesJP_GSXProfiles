@@ -19,18 +19,15 @@
 
 # Airport handler script for RJTT (profile: rjtt-karuchie)
 # Applies to all aircraft at RJTT
-# Version 0.9 Beta
+# Version 0.91 Beta
 
 # Top Level Defines
 PROFILE_STEM = "rjtt-karuchie"
 BRANCH_STEM = "main"
 AIR_OPR_CORRELATION_URL = f"https://raw.githubusercontent.com/GroundServicesJP/GroundServicesJP_GSXProfiles/{BRANCH_STEM}/airline_operator_corr_dicts/{PROFILE_STEM}_corr_dict.json"
-INI_PROFILE_URL = f"https://raw.githubusercontent.com/GroundServicesJP/GroundServicesJP_GSXProfiles/{BRANCH_STEM}/{PROFILE_STEM}.ini"
-PY_PROFILE_URL = f"https://raw.githubusercontent.com/GroundServicesJP/GroundServicesJP_GSXProfiles/{BRANCH_STEM}/{PROFILE_STEM}.py"
 
 # Debug Flags
 DISABLE_AUTO_OPR_SELECTION = False # Set to True to disable automatic operator selection based on airline ICAO code, and always use profile defaults
-DISABLE_AUTO_PROFILE_UPDATES = False # Set to True to disable automatic fetching of profile updates from GitHub, and always use local files
 
 # Shared library checks
 def try_require(req_name):
@@ -39,14 +36,11 @@ def try_require(req_name):
   except Exception as e:
     print(f"[GSJP] Failed to load library: {req_name}, Error: {e}")
     return None
+operator_correlator = try_require("gsjp_operator_correlation_v1")
+model_disabler = try_require("gsjp_model_disabler_v1")
 
 def checkRequirements():
-  global mototok_handler, operator_correlator, auto_profile_fetcher, model_disabler
-  operator_correlator = try_require("gsjp_operator_correlation_v1")
-  auto_profile_fetcher = try_require("gsjp_auto_profile_fetch_v1")
-  model_disabler = try_require("gsjp_model_disabler_v1")
   all_libs_available = (operator_correlator is not None
-                        and auto_profile_fetcher is not None
                         and model_disabler is not None)
 
   if not all_libs_available:
@@ -87,30 +81,30 @@ FALLBACK_AIRLINE_OPERATOR_CORRELATION = {
   "GCR": ("CKTS", ""),
   "VJC": ("SWISSPORT", "TFK"),
   "TTW": ("HTS", ""),
-  "CAL": ("JAL", "COSMO"),
-  "CCA": ("JAL", "TFK"),
-  "CES": ("JAL", "TFK"),
-  "QFA": ("JAL", "GGOURMET"),
+  "CAL": ("JL", "COSMO"),
+  "CCA": ("JL", "TFK"),
+  "CES": ("JL", "TFK"),
+  "QFA": ("JL", "GGOURMET"),
   "SIA": ("ANA", "ANA"),
-  "BAW": ("JAL", "COSMO"),
+  "BAW": ("JL", "COSMO"),
   "CPA": ("CKTS", "COSMO"),
   "EVA": ("ANA", "ANA"),
-  "CSN": ("JAL", "TFK"),
+  "CSN": ("JL", "TFK"),
   "DLH": ("ANA", "GGOURMET"),
   "GIA": ("ANA", "ANA"),
-  "AAL": ("JAL", "COSMO"),
-  "ITY": ("JAL", "TFK"),
+  "AAL": ("JL", "COSMO"),
+  "ITY": ("JL", "TFK"),
   "CSH": ("CKTS", "TFK"),
   "DAL": ("HTS", "TFK"),
-  "UAL": ("JAL", "GGOURMET"),
+  "UAL": ("JL", "GGOURMET"),
   "HVN": ("ANA", "ANA"),
   "ACA": ("HTS", "TFK"),
-  "HAL": ("JAL", "COSMO"),
+  "HAL": ("JL", "COSMO"),
   "VOZ": ("SWISSPORT", "TFK"),
   "FIN": ("CKTS", "ANA"),
-  "THY": ("JAL", "TFK"),
+  "THY": ("JL", "TFK"),
   "XAX": ("CKTS", "TFK"),
-  "CQH": ("JAL", "TFK"),
+  "CQH": ("JL", "TFK"),
   "SAS": ("SWISSPORT", "TFK"),
   "AIC": ("SWISSPORT", "TFK")
 }
@@ -754,8 +748,6 @@ def checkTSATSourceSelection(self):
 ################################ Inject in GSX Hooks ###############################
 def onEnterAirport(self):
   checkRequirements()
-  if not DISABLE_AUTO_PROFILE_UPDATES:
-    auto_profile_fetcher.checkIfNeedAutoFetchProfile(self, INI_PROFILE_URL, PY_PROFILE_URL)
 
 def onAirportAircraftEngaged(self):
   # Check if gate needs VDGS Display
@@ -763,7 +755,6 @@ def onAirportAircraftEngaged(self):
   if gate and "SafeDock" in gate.parkingSystem:
     print("[GSJP VDGS Display - Data Display] Gate has SafeDock system. Start VDGS display.")
     runAsync(_update_vdgs_from_tsat)
-    
 
 def onAirportBeforeVehicleSelect(self):
   # Check if gate needs VDGS Display
@@ -772,11 +763,15 @@ def onAirportBeforeVehicleSelect(self):
     if "SafeDock" in gate.parkingSystem:
       print("[GSJP VDGS Display - Data Acquisition] Gate has SafeDock system. Prompting for TSAT data source selection.")
       checkTSATSourceSelection(self)
-    if not DISABLE_AUTO_OPR_SELECTION:
+    if not DISABLE_AUTO_OPR_SELECTION and operator_correlator is not None:
       operator_correlator.checkIfNeedAirlineOperatorCorrelation(self, aircraft.icaoAirline, FALLBACK_AIRLINE_OPERATOR_CORRELATION, AIR_OPR_CORRELATION_URL)
+    if not gate.hasJetway:
+      # Disable Rear Exit for non-jetway SPOT
+      print("[GSJP] Disabling rear exit for SPOT without PBB.")
+      disableExit(EXIT_PASSENGERS, 3)
 
 def onVehicleCandidatesScored(self, vehicleType, candidates):
-  if "BaggageLoader" in vehicleType:
+  if "BaggageLoader" in vehicleType and model_disabler is not None:
     model_disabler.disableCCL35S(self, candidates)
-  if "PassengerBus" in vehicleType:
+  if "PassengerBus" in vehicleType and model_disabler is not None:
     model_disabler.disableNeoplan(self, candidates)
