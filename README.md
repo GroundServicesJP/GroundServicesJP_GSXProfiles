@@ -59,19 +59,19 @@ Google Map: https://www.google.com/maps/d/u/3/edit?mid=1qhnhZHAZv8GJ76quQZC9RZpL
 | rjer-g15_marin.ini/.py <br> rjer-g15_v2.ini/.py         | 利尻 Rishiri (RJER)   | G15 (v1)/Marinさん  <br>  Gate15Scenery (v2)    | Ver 1.1 <br>  Ver 1.1                     | 2025/06/06 Updated <br> 2025/06/06 Updated |
 | rjff-snjsim.ini/.py        | 福岡 Fukuoka (RJFF) | SNJSIM                          | Ver 1.3                        | 2025/06/11 Updated |
 | rjfr-mfsg.ini              | 北九州 Kitakyushu (RJFR) | MFSG                          | Ver 1.0                        | 2024/01/28 Released |
-| rjfs-snjsim.ini/.py/_handler.py  | 佐賀 Saga (RJFS) | SNJSIM              | Profile Ver 1.0  <br> Handler Ver 0.9beta | 2026/03/08 Released |
+| rjfs-snjsim.ini/.py/_handler.py  | 佐賀 Saga (RJFS) | SNJSIM              | Profile Ver 1.0  <br> Handler Ver 0.91beta | 2026/03/28 Updated |
 | rjft-keisim.ini/.py   <br> rjft-snjsim.ini/.py        | 熊本 Kumamoto (RJFT) | Keisimさん  <br>   SNJSIM      | Ver 1.1 <br>  Ver 1.1                | 2025/06/06 Updated <br> 2025/06/06 Updated |
 | rjoa-kaze_karuchie.ini/.py              | 広島 Hiroshima (RJOA) | KAZEさん<br>Karuchieさん                          | Ver 1.4                       | 2025/06/06 Updated |
 | rjoi-permille.ini/.py            | 岩国 Iwakuni (RJOI) | permilleさん                          | Ver 1.1                | 2025/03/26 Released  |
 | rjok-mfsg.ini/.py            | 高知 Kochi (RJOK) | MFSG                         | Ver 1.0                             | 2025/06/06 Updated |
-| rjoo-kado.ini/.py/_handler.py             | 大阪国際 Osaka International (RJOO) | KADOさん                         | Profile Ver 1.3  <br> Handler Ver 0.9beta            | 2026/03/08 Updated |
+| rjoo-kado.ini/.py/_handler.py             | 大阪国際 Osaka International (RJOO) | KADOさん                         | Profile Ver 1.3  <br> Handler Ver 0.91beta            | 2026/03/28 Updated |
 | rjos-kado.ini/.py            | 徳島 Tokushima (RJOS) | KADOさん                         | Ver 1.1            | 2025/06/06 Updated |
 | rjot-kado.ini/.py            | 高松 Takamatsu (RJOT) | KADOさん                         | Ver 1.3                             | 2025/06/06 Updated |
 | rjsk-fssa.ini/.py              | 秋田 Akita (RJSK) | FSSA                          | Ver 1.5                           | 2025/06/06 Updated |
 | rjsr-yusuke.ini/.py              | 大館能代 Odate-Noshiro (RJSR) | yusukeさん                          | Ver 1.2                           | 2025/06/06 Updated |
 | rjss-kaze.ini/.py              | 仙台 Sendai (RJSS) | KAZEさん                          | Ver 1.2                           | 2025/07/07 Updated |
 | rjth-karuchie.ini/.py            | 八丈島 Hachijojima (RJTH) | karuchieさん                         | Ver 1.2                             | 2025/06/06 Updated |
-| rjtt-karuchie.ini/.py/_handler.py  | 東京国際（羽田） Tokyo International (Haneda) (RJTT) | karuchieさん                          | Profile Ver 1.3  <br> Handler Ver 0.9beta    | 2026/03/08 Updated |
+| rjtt-karuchie.ini/.py/_handler.py  | 東京国際（羽田） Tokyo International (Haneda) (RJTT) | karuchieさん                          | Profile Ver 1.3  <br> Handler Ver 0.91beta    | 2026/03/28 Updated |
 | roah-mkstudios-gsjp.ini/.py            | 那覇 Naha (ROAH) | MK-STUDIOS                          | Ver 1.3                | 2025/03/09 Updated |
 | roig-keisim.ini/.py            | 石垣 Ishigaki (ROIG) | Keisimさん                          | Ver 1.5                | 2025/06/06 Updated |
 
