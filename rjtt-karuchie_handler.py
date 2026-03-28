@@ -771,7 +771,7 @@ def onAirportBeforeVehicleSelect(self):
       disableExit(EXIT_PASSENGERS, 3)
 
 def onVehicleCandidatesScored(self, vehicleType, candidates):
-  if "BaggageLoader" in vehicleType:
+  if "BaggageLoader" in vehicleType and model_disabler is not None:
     model_disabler.disableCCL35S(self, candidates)
-  if "PassengerBus" in vehicleType:
+  if "PassengerBus" in vehicleType and model_disabler is not None:
     model_disabler.disableNeoplan(self, candidates)

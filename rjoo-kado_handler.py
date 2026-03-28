@@ -25,8 +25,6 @@
 PROFILE_STEM = "rjoo-kado"
 BRANCH_STEM = "main"
 AIR_OPR_CORRELATION_URL = f"https://raw.githubusercontent.com/GroundServicesJP/GroundServicesJP_GSXProfiles/{BRANCH_STEM}/airline_operator_corr_dicts/{PROFILE_STEM}_corr_dict.json"
-INI_PROFILE_URL = f"https://raw.githubusercontent.com/GroundServicesJP/GroundServicesJP_GSXProfiles/{BRANCH_STEM}/{PROFILE_STEM}.ini"
-PY_PROFILE_URL = f"https://raw.githubusercontent.com/GroundServicesJP/GroundServicesJP_GSXProfiles/{BRANCH_STEM}/{PROFILE_STEM}.py"
 
 # Debug Flags
 DISABLE_AUTO_OPR_SELECTION = False # Set to True to disable automatic operator selection based on airline ICAO code, and always use profile defaults
@@ -180,12 +178,10 @@ def onAirportBeforeVehicleSelect(self):
     run_initialization_tasks(self)
 
 def onVehicleCandidatesScored(self, vehicleType, candidates):
-  if mototok_handler is None:
-    return
   gate = getGate()
-  if vehicleType == "Pushback" and gate and gate.pushbackType == 3:
+  if vehicleType == "Pushback" and gate and gate.pushbackType == 3 and mototok_handler is not None:
     mototok_handler.selectMototokForANAJALRJOO(self, candidates, aircraft.icaoAirline, aircraft.icaoType)
-  if "BaggageLoader" in vehicleType:
+  if "BaggageLoader" in vehicleType and model_disabler is not None:
     model_disabler.disableCCL35S(self, candidates)
-  if "PassengerBus" in vehicleType:
+  if "PassengerBus" in vehicleType and model_disabler is not None:
     model_disabler.disableNeoplan(self, candidates)

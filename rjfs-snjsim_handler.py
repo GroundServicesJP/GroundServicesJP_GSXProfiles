@@ -97,7 +97,7 @@ def onAirportBeforeVehicleSelect(self):
 
 def onVehicleCandidatesScored(self, vehicleType, candidates):
   gate = getGate()
-  if vehicleType == "Pushback" and gate and gate.pushbackType == 3:
+  if vehicleType == "Pushback" and gate and gate.pushbackType == 3 and mototok_handler is not None:
     mototok_handler.selectMototokForANARJFS(self, candidates, aircraft.icaoAirline, aircraft.icaoType)
-  if "BaggageLoader" in vehicleType:
+  if "BaggageLoader" in vehicleType and model_disabler is not None:
     model_disabler.disableCCL35S(self, candidates)
