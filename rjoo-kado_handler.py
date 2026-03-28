@@ -139,7 +139,7 @@ def run_initialization_tasks(self):
       mototok_handler.stopMototokEarlyConnect(self)
     if not gate.hasJetway: 
       # Disable Rear Exit for non-jetway SPOT
-      print(f"[GSJP] Disabling rear exit for SPOT without PBB.")
+      print("[GSJP] Disabling rear exit for SPOT without PBB.")
       disableExit(EXIT_PASSENGERS, 3)
 
 # Operator-Airline Correlation Matrix

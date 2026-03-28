@@ -43,8 +43,6 @@ operator_correlator = try_require("gsjp_operator_correlation_v1")
 model_disabler = try_require("gsjp_model_disabler_v1")
 
 def checkRequirements():
-  global mototok_handler, operator_correlator, auto_profile_fetcher, model_disabler
-  
   all_libs_available = (mototok_handler is not None
                         and operator_correlator is not None
                         and model_disabler is not None)
