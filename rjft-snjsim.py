@@ -16,7 +16,7 @@
 # along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 msfs_mode = 1
-version = 1.1
+version = 1.2
 
 @AlternativeStopPositions
 def customOffset_noOffset(aircraftData):
@@ -58,8 +58,8 @@ def customOffset_Spot3(aircraftData):
     }
 
     table350 = {
-        900: T_loc, 
-        1000: T_loc,
+        900: T_loc + 8.0, 
+        1000: T_loc + 8.0,
     }
 
     if aircraftData.idMajor == 777:
@@ -106,10 +106,12 @@ def customOffset_Spot5(aircraftData):
     }
 
     table350 = {
-        900: T_loc, 
-        1000: T_loc,
+        900: T_loc + 8.0, 
+        1000: T_loc + 8.0,
     }
 
+    if aircraftData.aircraftGroup in {"ARC-A", "ARC-B", "ARC-C"}: # MARS Override
+        return Distance.fromMeters(0.)
     if aircraftData.idMajor == 777:
         return Distance.fromMeters(table777.get(aircraftData.idMinor,0))
     elif aircraftData.idMajor == 787:
