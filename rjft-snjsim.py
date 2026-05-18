@@ -110,8 +110,6 @@ def customOffset_Spot5(aircraftData):
         1000: T_loc + 8.0,
     }
 
-    if aircraftData.aircraftGroup in {"ARC-A", "ARC-B", "ARC-C"}: # MARS Override
-        return Distance.fromMeters(0.)
     if aircraftData.idMajor == 777:
         return Distance.fromMeters(table777.get(aircraftData.idMinor,0))
     elif aircraftData.idMajor == 787:
