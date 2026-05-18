@@ -58,7 +58,7 @@ def customOffset_Spot3(aircraftData):
     }
 
     table350 = {
-        900: first, 
+        900: T_loc, 
         1000: T_loc,
     }
 
@@ -106,7 +106,7 @@ def customOffset_Spot5(aircraftData):
     }
 
     table350 = {
-        900: first, 
+        900: T_loc, 
         1000: T_loc,
     }
 
