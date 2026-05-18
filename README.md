@@ -60,7 +60,7 @@ Google Map: https://www.google.com/maps/d/u/3/edit?mid=1qhnhZHAZv8GJ76quQZC9RZpL
 | rjff-snjsim.ini/.py        | 福岡 Fukuoka (RJFF) | SNJSIM                          | Ver 1.3                        | 2025/06/11 Updated |
 | rjfr-mfsg.ini              | 北九州 Kitakyushu (RJFR) | MFSG                          | Ver 1.0                        | 2024/01/28 Released |
 | rjfs-snjsim.ini/.py/_handler.py  | 佐賀 Saga (RJFS) | SNJSIM              | Profile Ver 1.0  <br> Handler Ver 0.91beta | 2026/03/28 Updated |
-| rjft-keisim.ini/.py   <br> rjft-snjsim.ini/.py        | 熊本 Kumamoto (RJFT) | Keisimさん  <br>   SNJSIM      | Ver 1.1 <br>  Ver 1.1                | 2025/06/06 Updated <br> 2025/06/06 Updated |
+| rjft-keisim.ini/.py   <br> rjft-snjsim.ini/.py        | 熊本 Kumamoto (RJFT) | Keisimさん  <br>   SNJSIM      | Ver 1.1 <br>  Ver 1.2                | 2025/06/06 Updated <br> 2026/05/18 Updated |
 | rjoa-kaze_karuchie.ini/.py              | 広島 Hiroshima (RJOA) | KAZEさん<br>Karuchieさん                          | Ver 1.4                       | 2025/06/06 Updated |
 | rjoi-permille.ini/.py            | 岩国 Iwakuni (RJOI) | permilleさん                          | Ver 1.1                | 2025/03/26 Released  |
 | rjok-mfsg.ini/.py            | 高知 Kochi (RJOK) | MFSG                         | Ver 1.0                             | 2025/06/06 Updated |
